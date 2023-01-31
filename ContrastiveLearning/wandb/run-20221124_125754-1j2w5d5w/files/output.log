@@ -1,0 +1,43 @@
+
+Epoch 1
+torch.Size([6, 1, 163, 163, 110])
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 60, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 34, in train_epoch_scl
+    feat1, feat2 = encoder(data_1), encoder(data_2)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/monai/networks/nets/resnet.py", line 300, in forward
+    x = self.maxpool(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/pooling.py", line 240, in forward
+    return F.max_pool3d(input, self.kernel_size, self.stride,
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_jit_internal.py", line 422, in fn
+    return if_false(*args, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/functional.py", line 895, in _max_pool3d
+    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)
+RuntimeError: CUDA out of memory. Tried to allocate 542.00 MiB (GPU 0; 23.70 GiB total capacity; 21.52 GiB already allocated; 142.81 MiB free; 21.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 60, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 34, in train_epoch_scl
+    feat1, feat2 = encoder(data_1), encoder(data_2)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/monai/networks/nets/resnet.py", line 300, in forward
+    x = self.maxpool(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/pooling.py", line 240, in forward
+    return F.max_pool3d(input, self.kernel_size, self.stride,
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_jit_internal.py", line 422, in fn
+    return if_false(*args, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/functional.py", line 895, in _max_pool3d
+    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)
+RuntimeError: CUDA out of memory. Tried to allocate 542.00 MiB (GPU 0; 23.70 GiB total capacity; 21.52 GiB already allocated; 142.81 MiB free; 21.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

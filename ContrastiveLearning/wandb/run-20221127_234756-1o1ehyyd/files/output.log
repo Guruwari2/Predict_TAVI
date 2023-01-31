@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    model.load_state_dict(torch.load("model/contrastive.pth"))
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1046, in _load
+    result = unpickler.load()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1016, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 176, in default_restore_location
+    result = fn(storage, location)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 158, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 79, in _cuda
+    return new_type(self.size()).copy_(self, non_blocking)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    model.load_state_dict(torch.load("model/contrastive.pth"))
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1046, in _load
+    result = unpickler.load()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1016, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 176, in default_restore_location
+    result = fn(storage, location)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 158, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 79, in _cuda
+    return new_type(self.size()).copy_(self, non_blocking)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

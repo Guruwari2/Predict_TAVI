@@ -1,0 +1,98 @@
+Epoch: 1
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 23, in train_func
+    for batch in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 157, in default_collate
+    return elem_type({key: default_collate([d[key] for d in batch]) for key in elem})
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 157, in <dictcomp>
+    return elem_type({key: default_collate([d[key] for d in batch]) for key in elem})
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 138, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: result type Float can't be cast to the desired output type Short
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 23, in train_func
+    for batch in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 157, in default_collate
+    return elem_type({key: default_collate([d[key] for d in batch]) for key in elem})
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 157, in <dictcomp>
+    return elem_type({key: default_collate([d[key] for d in batch]) for key in elem})
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 138, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: result type Float can't be cast to the desired output type Short

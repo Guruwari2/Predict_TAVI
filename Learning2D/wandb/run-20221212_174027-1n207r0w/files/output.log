@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    list_dls = compute_dict(dict_config, 'newsplits_no_val_df.pkl')
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 64, in compute_dict
+    crop = dict_config['crop']
+KeyError: 'crop'
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    list_dls = compute_dict(dict_config, 'newsplits_no_val_df.pkl')
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 64, in compute_dict
+    crop = dict_config['crop']
+KeyError: 'crop'

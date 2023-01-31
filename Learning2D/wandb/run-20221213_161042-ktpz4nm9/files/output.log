@@ -1,0 +1,46 @@
+
+Epoch: 1
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 54, in valid_func
+    logits = model(images)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 38, in forward
+    feat = self.encoder(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/efficientnet.py", line 557, in forward
+    x = self.forward_features(x)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/efficientnet.py", line 540, in forward_features
+    x = self.conv_stem(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/layers/conv2d_same.py", line 30, in forward
+    return conv2d_same(x, self.weight, self.bias, self.stride, self.padding, self.dilation, self.groups)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/layers/conv2d_same.py", line 17, in conv2d_same
+    return F.conv2d(x, weight, bias, stride, (0, 0), dilation, groups)
+RuntimeError: Input type (torch.cuda.ShortTensor) and weight type (torch.cuda.FloatTensor) should be the same
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 54, in valid_func
+    logits = model(images)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 38, in forward
+    feat = self.encoder(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/efficientnet.py", line 557, in forward
+    x = self.forward_features(x)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/efficientnet.py", line 540, in forward_features
+    x = self.conv_stem(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/layers/conv2d_same.py", line 30, in forward
+    return conv2d_same(x, self.weight, self.bias, self.stride, self.padding, self.dilation, self.groups)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/timm/models/layers/conv2d_same.py", line 17, in conv2d_same
+    return F.conv2d(x, weight, bias, stride, (0, 0), dilation, groups)
+RuntimeError: Input type (torch.cuda.ShortTensor) and weight type (torch.cuda.FloatTensor) should be the same

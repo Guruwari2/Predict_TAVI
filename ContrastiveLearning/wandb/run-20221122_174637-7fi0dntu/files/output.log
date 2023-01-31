@@ -1,0 +1,46 @@
+
+Epoch 1
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 51, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 22, in train_epoch_scl
+    data_t1 = transform(data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 51, in apply_transform
+    subject = transform(subject)  # type: ignore[assignment]
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 113, in apply_transform
+    transformed = transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 147, in __call__
+    subject = data_parser.get_subject()
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 61, in get_subject
+    subject = self._parse_tensor(self.data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 121, in _parse_tensor
+    raise ValueError(message)
+ValueError: The input must be a 4D tensor with dimensions (channels, x, y, z) but it has shape (30, 1, 163, 163, 110). Tips: if it is a volume, please add the channels dimension; if it is 2D, also add a dimension of size 1 for the z axis
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 51, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 22, in train_epoch_scl
+    data_t1 = transform(data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 51, in apply_transform
+    subject = transform(subject)  # type: ignore[assignment]
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 113, in apply_transform
+    transformed = transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 147, in __call__
+    subject = data_parser.get_subject()
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 61, in get_subject
+    subject = self._parse_tensor(self.data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 121, in _parse_tensor
+    raise ValueError(message)
+ValueError: The input must be a 4D tensor with dimensions (channels, x, y, z) but it has shape (30, 1, 163, 163, 110). Tips: if it is a volume, please add the channels dimension; if it is 2D, also add a dimension of size 1 for the z axis

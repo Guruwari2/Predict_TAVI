@@ -1,0 +1,239 @@
+
+Epoch 1
+Current Train Loss : 1.6261
+Epoch 2
+Current Train Loss : 1.6055
+Epoch 3
+Current Train Loss : 1.6036
+Epoch 4
+Current Train Loss : 1.6084
+Epoch 5
+Current Train Loss : 1.6042
+Epoch 6
+Current Train Loss : 1.6081
+Epoch 7
+Current Train Loss : 1.6041
+Epoch 8
+Current Train Loss : 1.6049
+Epoch 9
+Current Train Loss : 1.6087
+Epoch 10
+Current Train Loss : 1.6081
+Epoch 11
+Current Train Loss : 1.5958
+Epoch 12
+Current Train Loss : 1.6000
+Epoch 13
+Current Train Loss : 1.6036
+Epoch 14
+Current Train Loss : 1.6003
+Epoch 15
+Current Train Loss : 1.6072
+Epoch 16
+Current Train Loss : 1.6074
+Epoch 17
+Current Train Loss : 1.6050
+Epoch 18
+Current Train Loss : 1.6066
+Epoch 19
+Current Train Loss : 1.6067
+Epoch 20
+Current Train Loss : 1.6060
+Epoch 21
+Current Train Loss : 1.6032
+Epoch 22
+Current Train Loss : 1.5943
+Epoch 23
+Current Train Loss : 1.5976
+Epoch 24
+Current Train Loss : 1.6056
+Epoch 25
+Current Train Loss : 1.6045
+Epoch 26
+Current Train Loss : 1.5946
+Epoch 27
+Current Train Loss : 1.6044
+Epoch 28
+Current Train Loss : 1.5999
+Epoch 29
+Current Train Loss : 1.5929
+Epoch 30
+Current Train Loss : 1.5607
+Epoch 31
+Current Train Loss : 1.5803
+Epoch 32
+Current Train Loss : 1.5277
+Epoch 33
+Current Train Loss : 1.5413
+Epoch 34
+Current Train Loss : 1.5273
+Epoch 35
+Current Train Loss : 1.4679
+Epoch 36
+Current Train Loss : 1.4491
+Epoch 37
+Current Train Loss : 1.3822
+Epoch 38
+Current Train Loss : 1.4172
+Epoch 39
+Current Train Loss : 1.3869
+Epoch 40
+Current Train Loss : 1.3954
+Epoch 41
+Current Train Loss : 1.3907
+Epoch 42
+Current Train Loss : 1.3845
+Epoch 43
+Current Train Loss : 1.3783
+Epoch 44
+Current Train Loss : 1.4111
+Epoch 45
+Current Train Loss : 1.3751
+Epoch 46
+Current Train Loss : 1.4043
+Epoch 47
+Current Train Loss : 1.3524
+Epoch 48
+Current Train Loss : 1.2873
+Epoch 49
+Current Train Loss : 1.3748
+Epoch 50
+Current Train Loss : 1.3378
+Epoch 51
+Current Train Loss : 1.3760
+Epoch 52
+Current Train Loss : 1.3765
+Epoch 53
+Current Train Loss : 1.3597
+Epoch 54
+Current Train Loss : 1.3169
+Epoch 55
+Current Train Loss : 1.3418
+Epoch 56
+Current Train Loss : 1.2676
+Epoch 57
+Current Train Loss : 1.3522
+Epoch 58
+Current Train Loss : 1.2942
+Epoch 59
+Current Train Loss : 1.2859
+Epoch 60
+Current Train Loss : 1.2605
+Epoch 61
+Current Train Loss : 1.3121
+Epoch 62
+Current Train Loss : 1.1852
+Epoch 63
+Current Train Loss : 1.2402
+Epoch 64
+Current Train Loss : 1.2092
+Epoch 65
+Current Train Loss : 1.1766
+Epoch 66
+Current Train Loss : 1.2471
+Epoch 67
+Current Train Loss : 1.2625
+Epoch 68
+Current Train Loss : 1.2044
+Epoch 69
+Current Train Loss : 1.2371
+Epoch 70
+Current Train Loss : 1.1918
+Epoch 71
+Current Train Loss : 1.2397
+Epoch 72
+Current Train Loss : 1.2631
+Epoch 73
+Current Train Loss : 1.2282
+Epoch 74
+Current Train Loss : 1.2206
+Epoch 75
+Current Train Loss : 1.2408
+Epoch 76
+Current Train Loss : 1.1805
+Epoch 77
+Current Train Loss : 1.2317
+Epoch 78
+Current Train Loss : 1.1993
+Epoch 79
+Current Train Loss : 1.1764
+Epoch 80
+Current Train Loss : 1.1687
+Epoch 81
+Current Train Loss : 1.2504
+Epoch 82
+Current Train Loss : 1.2257
+Epoch 83
+Current Train Loss : 1.1398
+Epoch 84
+Current Train Loss : 1.1669
+Epoch 85
+Current Train Loss : 1.0884
+Epoch 86
+Current Train Loss : 1.1340
+Epoch 87
+Current Train Loss : 1.2046
+Epoch 88
+Current Train Loss : 1.1477
+Epoch 89
+Current Train Loss : 1.1014
+Epoch 90
+Current Train Loss : 1.1074
+Epoch 91
+Current Train Loss : 1.1410
+Epoch 92
+Current Train Loss : 1.1366
+Epoch 93
+Current Train Loss : 0.9790
+Epoch 94
+Current Train Loss : 0.9759
+Epoch 95
+Current Train Loss : 1.0671
+Epoch 96
+Current Train Loss : 1.0824
+Epoch 97
+Current Train Loss : 1.0223
+Epoch 98
+Current Train Loss : 1.0912
+Epoch 99
+Current Train Loss : 1.0098
+Epoch 100
+Current Train Loss : 1.0427
+Epoch 101
+Current Train Loss : 1.0603
+Epoch 102
+Current Train Loss : 1.0172
+Epoch 103
+Current Train Loss : 1.0349
+Epoch 104
+Current Train Loss : 0.9443
+Epoch 105
+Current Train Loss : 1.0122
+Epoch 106
+Current Train Loss : 0.9885
+Epoch 107
+Current Train Loss : 1.0376
+Epoch 108
+Current Train Loss : 1.0359
+Epoch 109
+Current Train Loss : 1.0251
+Epoch 110
+Current Train Loss : 1.0338
+Last Loss : 1.0338	Best Loss : 0.9443
+Epoch 1
+Traceback (most recent call last):
+  File "main.py", line 74, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 180, in linear_scl
+    train_loss, train_se, train_sp, train_icbhi_score, train_acc = linear_train_epoch(encoder, classifier, train_loader, criterion, optimizer)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 109, in linear_train_epoch
+    TP[idx] += torch.logical_and((labels_predicted==idx),(target==idx)).sum().item()
+NameError: name 'target' is not defined
+Traceback (most recent call last):
+  File "main.py", line 74, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 180, in linear_scl
+    train_loss, train_se, train_sp, train_icbhi_score, train_acc = linear_train_epoch(encoder, classifier, train_loader, criterion, optimizer)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 109, in linear_train_epoch
+    TP[idx] += torch.logical_and((labels_predicted==idx),(target==idx)).sum().item()
+NameError: name 'target' is not defined

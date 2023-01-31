@@ -1,0 +1,17 @@
+
+Epoch 1
+Train loss : 0.6932
+[tensor([0, 0, 0])] tensor([0, 1, 1], device='cuda:0')
+Val loss : 0.7004	Val AUC : 0.4353	Val F1 : 0.2553	Val Acc : 0.3333
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 209, in linear_scl
+    best_sp = val_sp
+NameError: name 'val_sp' is not defined
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 209, in linear_scl
+    best_sp = val_sp
+NameError: name 'val_sp' is not defined

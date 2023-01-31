@@ -1,0 +1,14 @@
+
+Epoch: 1
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 64, in valid_func
+    targets = targets.view[:,0](-1)
+TypeError: 'builtin_function_or_method' object is not subscriptable
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 64, in valid_func
+    targets = targets.view[:,0](-1)
+TypeError: 'builtin_function_or_method' object is not subscriptable

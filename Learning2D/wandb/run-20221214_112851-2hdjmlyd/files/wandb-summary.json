@@ -1,0 +1,1 @@
+{"epoch": 2, "train_loss": NaN, "test_auc": 0.5, "test_acc": 0.803921568627451, "test_f1": 0.0, "_timestamp": 1671014386.4492943, "_runtime": 654.5099813938141, "_step": 1, "_wandb": {"runtime": 660}}

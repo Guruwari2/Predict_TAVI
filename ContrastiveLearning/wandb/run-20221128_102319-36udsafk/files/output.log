@@ -1,0 +1,19 @@
+
+Epoch 1
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 190, in linear_scl
+    val_loss, val_auc, val_f1, val_acc = linear_eval_epoch(encoder, classifier, val_loader, criterion)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 126, in linear_eval_epoch
+    for i, batch in enumerate(train_loader):
+NameError: name 'train_loader' is not defined
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 190, in linear_scl
+    val_loss, val_auc, val_f1, val_acc = linear_eval_epoch(encoder, classifier, val_loader, criterion)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 126, in linear_eval_epoch
+    for i, batch in enumerate(train_loader):
+NameError: name 'train_loader' is not defined
+Train loss : 0.6919

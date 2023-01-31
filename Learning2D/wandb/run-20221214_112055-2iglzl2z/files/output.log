@@ -1,0 +1,10 @@
+
+Epoch: 1
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    print("Loss : {:.5f}".format(loss), end = ' ')
+NameError: name 'loss' is not defined
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    print("Loss : {:.5f}".format(loss), end = ' ')
+NameError: name 'loss' is not defined

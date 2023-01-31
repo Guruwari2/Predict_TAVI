@@ -1,0 +1,401 @@
+
+Epoch: 1
+<built-in method sum of Tensor object at 0x7efda7a11860>
+<built-in method sum of Tensor object at 0x7efda7a114a0>
+<built-in method sum of Tensor object at 0x7efda79d0540>
+<built-in method sum of Tensor object at 0x7efda7a0a8b0>
+<built-in method sum of Tensor object at 0x7efda7a0a860>
+<built-in method sum of Tensor object at 0x7efda7a0a9f0>
+<built-in method sum of Tensor object at 0x7efda7a0a950>
+<built-in method sum of Tensor object at 0x7efda7a0a9a0>
+<built-in method sum of Tensor object at 0x7efda7a0a810>
+<built-in method sum of Tensor object at 0x7efda7a0a630>
+<built-in method sum of Tensor object at 0x7efda7a0a680>
+<built-in method sum of Tensor object at 0x7efda7a0aa40>
+<built-in method sum of Tensor object at 0x7efda7a0a900>
+<built-in method sum of Tensor object at 0x7efda7a0a720>
+<built-in method sum of Tensor object at 0x7efda79ad5e0>
+<built-in method sum of Tensor object at 0x7efda7a1e4f0>
+<built-in method sum of Tensor object at 0x7efda79a6950>
+<built-in method sum of Tensor object at 0x7efda7a1a310>
+<built-in method sum of Tensor object at 0x7efda7a1a1d0>
+<built-in method sum of Tensor object at 0x7efda7a1a360>
+<built-in method sum of Tensor object at 0x7efda7a1a540>
+<built-in method sum of Tensor object at 0x7efda7a1a400>
+<built-in method sum of Tensor object at 0x7efda7a1ad10>
+<built-in method sum of Tensor object at 0x7efda7a1a220>
+<built-in method sum of Tensor object at 0x7efda7a1a040>
+<built-in method sum of Tensor object at 0x7efda7a1a2c0>
+<built-in method sum of Tensor object at 0x7efda7a1a7c0>
+<built-in method sum of Tensor object at 0x7efda7a1a180>
+<built-in method sum of Tensor object at 0x7efda7a1a630>
+<built-in method sum of Tensor object at 0x7efda7a1a860>
+<built-in method sum of Tensor object at 0x7efda7a1ac70>
+<built-in method sum of Tensor object at 0x7efda7a1a720>
+<built-in method sum of Tensor object at 0x7efda7a1ab80>
+<built-in method sum of Tensor object at 0x7efda7a1a360>
+<built-in method sum of Tensor object at 0x7efda7a1a770>
+<built-in method sum of Tensor object at 0x7efda7a1a540>
+<built-in method sum of Tensor object at 0x7efda7a1af40>
+<built-in method sum of Tensor object at 0x7efda7a1a220>
+<built-in method sum of Tensor object at 0x7efda7a1a040>
+<built-in method sum of Tensor object at 0x7efda7a1a630>
+<built-in method sum of Tensor object at 0x7efda7a16e00>
+<built-in method sum of Tensor object at 0x7efda7a1e9a0>
+<built-in method sum of Tensor object at 0x7efda7a1e860>
+<built-in method sum of Tensor object at 0x7efda7a1e130>
+<built-in method sum of Tensor object at 0x7efda79e9b80>
+<built-in method sum of Tensor object at 0x7efda7a10090>
+<built-in method sum of Tensor object at 0x7efda7a10860>
+<built-in method sum of Tensor object at 0x7efda7a10630>
+<built-in method sum of Tensor object at 0x7efda7a10d10>
+<built-in method sum of Tensor object at 0x7efda7a10450>
+<built-in method sum of Tensor object at 0x7efda7a105e0>
+<built-in method sum of Tensor object at 0x7efda7a10090>
+<built-in method sum of Tensor object at 0x7efda7a10c20>
+<built-in method sum of Tensor object at 0x7efda7a10090>
+<built-in method sum of Tensor object at 0x7efda7a10680>
+<built-in method sum of Tensor object at 0x7efda7a10ef0>
+<built-in method sum of Tensor object at 0x7efda7a10db0>
+<built-in method sum of Tensor object at 0x7efda7a10310>
+<built-in method sum of Tensor object at 0x7efda7a10720>
+<built-in method sum of Tensor object at 0x7efda7a10040>
+<built-in method sum of Tensor object at 0x7efda7a10540>
+<built-in method sum of Tensor object at 0x7efda7a10c70>
+<built-in method sum of Tensor object at 0x7efda7a10860>
+<built-in method sum of Tensor object at 0x7efda7a10e00>
+<built-in method sum of Tensor object at 0x7efda7a10630>
+<built-in method sum of Tensor object at 0x7efda7a10310>
+<built-in method sum of Tensor object at 0x7efda7a100e0>
+<built-in method sum of Tensor object at 0x7efda7a105e0>
+<built-in method sum of Tensor object at 0x7efda7a10ef0>
+<built-in method sum of Tensor object at 0x7efda7a108b0>
+<built-in method sum of Tensor object at 0x7efda7a10720>
+<built-in method sum of Tensor object at 0x7efda7a10860>
+<built-in method sum of Tensor object at 0x7efda7a102c0>
+<built-in method sum of Tensor object at 0x7efda7a10950>
+<built-in method sum of Tensor object at 0x7efda7a103b0>
+<built-in method sum of Tensor object at 0x7efda7a10a90>
+<built-in method sum of Tensor object at 0x7efda7a10f40>
+<built-in method sum of Tensor object at 0x7efda7a10770>
+<built-in method sum of Tensor object at 0x7efda7a10e00>
+<built-in method sum of Tensor object at 0x7efda7a10770>
+<built-in method sum of Tensor object at 0x7efda7a10c70>
+<built-in method sum of Tensor object at 0x7efda7a108b0>
+<built-in method sum of Tensor object at 0x7efda7a10680>
+<built-in method sum of Tensor object at 0x7efda7a10720>
+<built-in method sum of Tensor object at 0x7efda7a10c20>
+<built-in method sum of Tensor object at 0x7efda7a10770>
+<built-in method sum of Tensor object at 0x7efda7a101d0>
+<built-in method sum of Tensor object at 0x7efda7a10180>
+<built-in method sum of Tensor object at 0x7efda7a10d10>
+<built-in method sum of Tensor object at 0x7efda7a10a40>
+<built-in method sum of Tensor object at 0x7efda7a10040>
+<built-in method sum of Tensor object at 0x7efda7a10a90>
+<built-in method sum of Tensor object at 0x7efda7a10950>
+<built-in method sum of Tensor object at 0x7efda7a10360>
+<built-in method sum of Tensor object at 0x7efda7a10bd0>
+<built-in method sum of Tensor object at 0x7efda7a10770>
+<built-in method sum of Tensor object at 0x7efda7a102c0>
+<built-in method sum of Tensor object at 0x7efda7a10ef0>
+<built-in method sum of Tensor object at 0x7efda7a10720>
+<built-in method sum of Tensor object at 0x7efda7a10540>
+<built-in method sum of Tensor object at 0x7efda7a101d0>
+<built-in method sum of Tensor object at 0x7efda7a10040>
+<built-in method sum of Tensor object at 0x7efda7a107c0>
+<built-in method sum of Tensor object at 0x7efda7a10360>
+<built-in method sum of Tensor object at 0x7efda79bc270>
+<built-in method sum of Tensor object at 0x7efda79e78b0>
+<built-in method sum of Tensor object at 0x7efda79e7090>
+<built-in method sum of Tensor object at 0x7efda79e73b0>
+<built-in method sum of Tensor object at 0x7efda79e7590>
+<built-in method sum of Tensor object at 0x7efda79e7ea0>
+<built-in method sum of Tensor object at 0x7efda79e7900>
+<built-in method sum of Tensor object at 0x7efda79e7cc0>
+<built-in method sum of Tensor object at 0x7efda79e7540>
+<built-in method sum of Tensor object at 0x7efda79e71d0>
+<built-in method sum of Tensor object at 0x7efda79e7360>
+<built-in method sum of Tensor object at 0x7efda79e7720>
+<built-in method sum of Tensor object at 0x7efda79e7090>
+<built-in method sum of Tensor object at 0x7efda79e7b30>
+<built-in method sum of Tensor object at 0x7efda79e7ea0>
+<built-in method sum of Tensor object at 0x7efda79e73b0>
+<built-in method sum of Tensor object at 0x7efda79e76d0>
+<built-in method sum of Tensor object at 0x7efda79e7630>
+<built-in method sum of Tensor object at 0x7efda79e7bd0>
+<built-in method sum of Tensor object at 0x7efda79e7d10>
+<built-in method sum of Tensor object at 0x7efda79e7680>
+<built-in method sum of Tensor object at 0x7efda79e7f40>
+<built-in method sum of Tensor object at 0x7efda79e7900>
+<built-in method sum of Tensor object at 0x7efda7a10040>
+<built-in method sum of Tensor object at 0x7efda79e9bd0>
+<built-in method sum of Tensor object at 0x7efda79fbcc0>
+<built-in method sum of Tensor object at 0x7efda79fbc70>
+<built-in method sum of Tensor object at 0x7efda79fba40>
+<built-in method sum of Tensor object at 0x7efda79fbae0>
+<built-in method sum of Tensor object at 0x7efda79fb9f0>
+<built-in method sum of Tensor object at 0x7efda79fba90>
+<built-in method sum of Tensor object at 0x7efda79fb7c0>
+<built-in method sum of Tensor object at 0x7efda79fb9a0>
+<built-in method sum of Tensor object at 0x7efda79fb6d0>
+<built-in method sum of Tensor object at 0x7efda79fb860>
+<built-in method sum of Tensor object at 0x7efda79fb8b0>
+<built-in method sum of Tensor object at 0x7efda7a190e0>
+<built-in method sum of Tensor object at 0x7efda79e34f0>
+<built-in method sum of Tensor object at 0x7efda79e3b80>
+<built-in method sum of Tensor object at 0x7efda79e3630>
+<built-in method sum of Tensor object at 0x7efda79e30e0>
+<built-in method sum of Tensor object at 0x7efda79e3130>
+<built-in method sum of Tensor object at 0x7efda79e3860>
+<built-in method sum of Tensor object at 0x7efda79e34a0>
+<built-in method sum of Tensor object at 0x7efda79e9cc0>
+<built-in method sum of Tensor object at 0x7efda7a1eef0>
+<built-in method sum of Tensor object at 0x7efda7a1e0e0>
+<built-in method sum of Tensor object at 0x7efda7a1e860>
+<built-in method sum of Tensor object at 0x7efda7a1e8b0>
+<built-in method sum of Tensor object at 0x7efda7a1e040>
+<built-in method sum of Tensor object at 0x7efda7a1e4a0>
+<built-in method sum of Tensor object at 0x7efda7a1ecc0>
+<built-in method sum of Tensor object at 0x7efda7a1e400>
+<built-in method sum of Tensor object at 0x7efda7a1e180>
+<built-in method sum of Tensor object at 0x7efda7a1ebd0>
+<built-in method sum of Tensor object at 0x7efda7a1e860>
+<built-in method sum of Tensor object at 0x7efda7a1e810>
+<built-in method sum of Tensor object at 0x7efda7a1e7c0>
+<built-in method sum of Tensor object at 0x7efda7a1e630>
+<built-in method sum of Tensor object at 0x7efda7a1eea0>
+<built-in method sum of Tensor object at 0x7efda7a1e8b0>
+<built-in method sum of Tensor object at 0x7efda7a1e400>
+<built-in method sum of Tensor object at 0x7efda7a1e9a0>
+<built-in method sum of Tensor object at 0x7efda7a1ec70>
+<built-in method sum of Tensor object at 0x7efda79e9db0>
+<built-in method sum of Tensor object at 0x7efda79fb8b0>
+<built-in method sum of Tensor object at 0x7efda79fbd60>
+<built-in method sum of Tensor object at 0x7efda79fb540>
+<built-in method sum of Tensor object at 0x7efda79fb4f0>
+<built-in method sum of Tensor object at 0x7efda79fb810>
+<built-in method sum of Tensor object at 0x7efda79e7680>
+<built-in method sum of Tensor object at 0x7efda79e3d60>
+<built-in method sum of Tensor object at 0x7efda79e3ae0>
+<built-in method sum of Tensor object at 0x7efda79e3270>
+<built-in method sum of Tensor object at 0x7efda79e3360>
+<built-in method sum of Tensor object at 0x7efda79e3d60>
+<built-in method sum of Tensor object at 0x7efda79e3040>
+<built-in method sum of Tensor object at 0x7efda79e3c70>
+<built-in method sum of Tensor object at 0x7efda79e3c20>
+<built-in method sum of Tensor object at 0x7efda79e3450>
+<built-in method sum of Tensor object at 0x7efda79e31d0>
+<built-in method sum of Tensor object at 0x7efda79e3ef0>
+<built-in method sum of Tensor object at 0x7efda79a6400>
+<built-in method sum of Tensor object at 0x7efda7a1acc0>
+<built-in method sum of Tensor object at 0x7efda7a1a0e0>
+<built-in method sum of Tensor object at 0x7efda7a1a310>
+<built-in method sum of Tensor object at 0x7efda7a1a9a0>
+<built-in method sum of Tensor object at 0x7efda7a1a180>
+<built-in method sum of Tensor object at 0x7efda7a1a720>
+<built-in method sum of Tensor object at 0x7efda7a1a3b0>
+<built-in method sum of Tensor object at 0x7efda7a1a040>
+<built-in method sum of Tensor object at 0x7efda7a1a9f0>
+<built-in method sum of Tensor object at 0x7efda79c7860>
+<built-in method sum of Tensor object at 0x7efda79fb720>
+<built-in method sum of Tensor object at 0x7efda79fbd60>
+<built-in method sum of Tensor object at 0x7efda79fb220>
+<built-in method sum of Tensor object at 0x7efda7b2bf90>
+<built-in method sum of Tensor object at 0x7efda7a16860>
+<built-in method sum of Tensor object at 0x7efda7a16d60>
+<built-in method sum of Tensor object at 0x7efda7a16f90>
+<built-in method sum of Tensor object at 0x7efda7a16c20>
+<built-in method sum of Tensor object at 0x7efda7a161d0>
+<built-in method sum of Tensor object at 0x7efda7a16b30>
+<built-in method sum of Tensor object at 0x7efda7a16180>
+<built-in method sum of Tensor object at 0x7efda7a16ea0>
+<built-in method sum of Tensor object at 0x7efda7a16450>
+<built-in method sum of Tensor object at 0x7efda7a16e00>
+<built-in method sum of Tensor object at 0x7efda7a16db0>
+<built-in method sum of Tensor object at 0x7efda7a16130>
+<built-in method sum of Tensor object at 0x7efda7a16ef0>
+<built-in method sum of Tensor object at 0x7efda79bcea0>
+<built-in method sum of Tensor object at 0x7efda79e7b30>
+<built-in method sum of Tensor object at 0x7efda79e7590>
+<built-in method sum of Tensor object at 0x7efda79e7090>
+<built-in method sum of Tensor object at 0x7efda79e76d0>
+<built-in method sum of Tensor object at 0x7efda79e7f90>
+<built-in method sum of Tensor object at 0x7efda79ad9f0>
+<built-in method sum of Tensor object at 0x7efda7a1a540>
+<built-in method sum of Tensor object at 0x7efda7a1a4a0>
+<built-in method sum of Tensor object at 0x7efda7a1ac20>
+<built-in method sum of Tensor object at 0x7efda7a1aa90>
+<built-in method sum of Tensor object at 0x7efda7a1a4a0>
+<built-in method sum of Tensor object at 0x7efda7a1aa90>
+<built-in method sum of Tensor object at 0x7efda79a64a0>
+<built-in method sum of Tensor object at 0x7efda7a1ac20>
+<built-in method sum of Tensor object at 0x7efda79e3090>
+<built-in method sum of Tensor object at 0x7efda7a1a2c0>
+<built-in method sum of Tensor object at 0x7efda7a1edb0>
+<built-in method sum of Tensor object at 0x7efda7a1ab80>
+<built-in method sum of Tensor object at 0x7efda7a10cc0>
+<built-in method sum of Tensor object at 0x7efda7a1a4a0>
+<built-in method sum of Tensor object at 0x7efda7a16270>
+<built-in method sum of Tensor object at 0x7efda7a1aa90>
+<built-in method sum of Tensor object at 0x7efda79d0c70>
+<built-in method sum of Tensor object at 0x7efda7a21d60>
+<built-in method sum of Tensor object at 0x7efda79c7770>
+<built-in method sum of Tensor object at 0x7efda79ad1d0>
+<built-in method sum of Tensor object at 0x7efda79b4040>
+<built-in method sum of Tensor object at 0x7efda7a19cc0>
+<built-in method sum of Tensor object at 0x7efda7a58a40>
+<built-in method sum of Tensor object at 0x7efda7a589f0>
+<built-in method sum of Tensor object at 0x7efda7a58860>
+<built-in method sum of Tensor object at 0x7efda7a58810>
+<built-in method sum of Tensor object at 0x7efda7a58720>
+<built-in method sum of Tensor object at 0x7efda7a58770>
+<built-in method sum of Tensor object at 0x7efda7a584f0>
+<built-in method sum of Tensor object at 0x7efda7a58680>
+<built-in method sum of Tensor object at 0x7efda7a58400>
+<built-in method sum of Tensor object at 0x7efda79d0d60>
+<built-in method sum of Tensor object at 0x7efda7a5b590>
+<built-in method sum of Tensor object at 0x7efda7a5b540>
+<built-in method sum of Tensor object at 0x7efda7a5b4a0>
+<built-in method sum of Tensor object at 0x7efda7a5b4f0>
+<built-in method sum of Tensor object at 0x7efda7a5b630>
+[0.6305665969848633, nan, 0.6878386735916138, 0.6423094272613525, 0.7010186314582825, 0.683314323425293, 0.7900800704956055, 0.635500431060791, 1.363288164138794, 0.90162593126297, 0.6289361715316772, 0.5776647329330444, 0.6707819104194641, 0.5664001703262329, 0.784557580947876, 0.6873653531074524, 0.6488970518112183, 0.6876471638679504, 0.714250922203064, 0.4571325480937958, 0.8635693788528442, 0.8431292176246643, 0.531321108341217, 0.5911056399345398, 0.46565812826156616, 0.4462030529975891, 1.1599299907684326, 0.8875783681869507, nan, 0.5633234977722168, 0.7379555702209473, 0.6623570919036865, 0.8203141093254089, 0.7711575627326965, 0.7449102997779846, 0.6555038094520569, 0.550544261932373, 0.6066074371337891, 0.4480423629283905, 0.6912894248962402, 0.37993860244750977, 0.9977063536643982, 0.764671802520752, 0.6006937026977539, 1.0467323064804077, 0.6354727745056152, 0.7044680118560791, 0.7798869013786316, 0.49082234501838684, 0.9284375309944153, 0.37660276889801025, 0.4834217131137848, 0.5989671349525452, 0.6730879545211792, 0.6560594439506531, 0.5926361680030823, 0.588875949382782, 0.4866434335708618, 0.8569499254226685, 0.5871941447257996, 0.7197184562683105, 0.801352322101593, 0.561650276184082, 0.9443825483322144, 0.5098927617073059, nan, 0.8077952861785889, 0.6411104202270508, 0.7083417773246765, 0.5312719941139221, 0.4883248209953308, 0.560904860496521, 0.7352151870727539, 0.6570403575897217, 0.555213987827301, 0.7763757109642029, 0.48985520005226135, 0.4797635078430176, 0.5039081573486328, 0.5867369174957275, 0.7728353142738342, 0.5778656601905823, 0.5305525064468384, 0.5009591579437256, 0.5388734936714172, 0.6142710447311401, 0.7686404585838318, 0.533696174621582, 0.4244009554386139, 0.6603226661682129, 0.30950927734375, 0.6428094506263733, nan, 0.7780809998512268, 0.5216509103775024, nan, 0.593956470489502, 0.36392688751220703, 0.8302104473114014, 0.8020464777946472, 0.5697972178459167, 0.5050511360168457, 0.3332328200340271, 0.5130837559700012, 1.1381585597991943, 0.7701811790466309, 0.45729973912239075, 0.5383104681968689, 0.48144376277923584, 0.3679179847240448, 0.2266390025615692, 1.2671393156051636, 0.46613454818725586, 0.873825192451477, nan, 1.0132783651351929, 0.41816237568855286, 0.34627431631088257, 0.8934156894683838, 0.5415037274360657, 0.4519863724708557, 0.5753985643386841, 0.419400155544281, 0.5078755021095276, 0.8693800568580627, 0.4112597703933716, 0.49996715784072876, 0.7698638439178467, 0.39952343702316284]
+Loss nan
+tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+ tensor([0., 0., 1., 0., 0., 0.], device='cuda:0')
+acc : 0.81373, auc: 0.50000, f1: 0.00000
+metric_best (0.000000 --> 0.500000). Saving model ...
+Epoch: 2
+<built-in method sum of Tensor object at 0x7efda7a1ab80>
+<built-in method sum of Tensor object at 0x7efda7967180>
+<built-in method sum of Tensor object at 0x7efda7a1a6d0>
+<built-in method sum of Tensor object at 0x7efda7a21680>
+<built-in method sum of Tensor object at 0x7efda7995810>
+<built-in method sum of Tensor object at 0x7efda79c1db0>
+<built-in method sum of Tensor object at 0x7efda79c1db0>
+<built-in method sum of Tensor object at 0x7efda7990ae0>
+<built-in method sum of Tensor object at 0x7efda7990db0>
+<built-in method sum of Tensor object at 0x7efda7990e00>
+<built-in method sum of Tensor object at 0x7efda7a1e5e0>
+<built-in method sum of Tensor object at 0x7efda79a6720>
+<built-in method sum of Tensor object at 0x7efda7995f90>
+<built-in method sum of Tensor object at 0x7efda7995ef0>
+<built-in method sum of Tensor object at 0x7efda79d0400>
+<built-in method sum of Tensor object at 0x7efda79dc220>
+<built-in method sum of Tensor object at 0x7efda7a219f0>
+<built-in method sum of Tensor object at 0x7efda79922c0>
+<built-in method sum of Tensor object at 0x7efda7992b80>
+<built-in method sum of Tensor object at 0x7efda7992180>
+<built-in method sum of Tensor object at 0x7efda7993310>
+<built-in method sum of Tensor object at 0x7efda7a219f0>
+<built-in method sum of Tensor object at 0x7efda79fb6d0>
+<built-in method sum of Tensor object at 0x7efda7992c70>
+<built-in method sum of Tensor object at 0x7efda7991a90>
+<built-in method sum of Tensor object at 0x7efda79921d0>
+<built-in method sum of Tensor object at 0x7efda7a1ad60>
+<built-in method sum of Tensor object at 0x7efda7a10a40>
+<built-in method sum of Tensor object at 0x7efda79bc1d0>
+<built-in method sum of Tensor object at 0x7efda7967540>
+<built-in method sum of Tensor object at 0x7efda79e9ea0>
+<built-in method sum of Tensor object at 0x7efda7967ef0>
+<built-in method sum of Tensor object at 0x7efda79c7db0>
+<built-in method sum of Tensor object at 0x7efda79671d0>
+<built-in method sum of Tensor object at 0x7efda7a219f0>
+<built-in method sum of Tensor object at 0x7efda79948b0>
+<built-in method sum of Tensor object at 0x7efda79dc9a0>
+<built-in method sum of Tensor object at 0x7efda7994d10>
+<built-in method sum of Tensor object at 0x7efda79a6720>
+<built-in method sum of Tensor object at 0x7efda7995cc0>
+<built-in method sum of Tensor object at 0x7efda7995040>
+<built-in method sum of Tensor object at 0x7efda7995ef0>
+<built-in method sum of Tensor object at 0x7efda79952c0>
+<built-in method sum of Tensor object at 0x7efda7995950>
+<built-in method sum of Tensor object at 0x7efda79956d0>
+<built-in method sum of Tensor object at 0x7efda79957c0>
+<built-in method sum of Tensor object at 0x7efda7995b30>
+<built-in method sum of Tensor object at 0x7efda7995360>
+<built-in method sum of Tensor object at 0x7efda79c7900>
+<built-in method sum of Tensor object at 0x7efda79951d0>
+<built-in method sum of Tensor object at 0x7efda79950e0>
+<built-in method sum of Tensor object at 0x7efda7995360>
+<built-in method sum of Tensor object at 0x7efda7995ae0>
+<built-in method sum of Tensor object at 0x7efda7995e00>
+<built-in method sum of Tensor object at 0x7efda79c7770>
+<built-in method sum of Tensor object at 0x7efda7995e00>
+<built-in method sum of Tensor object at 0x7efda7995720>
+<built-in method sum of Tensor object at 0x7efda79957c0>
+<built-in method sum of Tensor object at 0x7efda7967ef0>
+<built-in method sum of Tensor object at 0x7efda7990180>
+<built-in method sum of Tensor object at 0x7efda7994c20>
+<built-in method sum of Tensor object at 0x7efda7990d60>
+<built-in method sum of Tensor object at 0x7efda7995f90>
+<built-in method sum of Tensor object at 0x7efda7a5bdb0>
+<built-in method sum of Tensor object at 0x7efda79bc950>
+<built-in method sum of Tensor object at 0x7efda7990b80>
+<built-in method sum of Tensor object at 0x7efda7991450>
+<built-in method sum of Tensor object at 0x7efda7990400>
+<built-in method sum of Tensor object at 0x7efda7990450>
+<built-in method sum of Tensor object at 0x7efda7990310>
+<built-in method sum of Tensor object at 0x7efda79a64a0>
+<built-in method sum of Tensor object at 0x7efda7990450>
+<built-in method sum of Tensor object at 0x7efda7990310>
+<built-in method sum of Tensor object at 0x7efda79901d0>
+<built-in method sum of Tensor object at 0x7efda7990180>
+<built-in method sum of Tensor object at 0x7efda7990090>
+<built-in method sum of Tensor object at 0x7efda7a1eb80>
+<built-in method sum of Tensor object at 0x7efda7992040>
+<built-in method sum of Tensor object at 0x7efda7967630>
+<built-in method sum of Tensor object at 0x7efda79920e0>
+<built-in method sum of Tensor object at 0x7efda7994770>
+<built-in method sum of Tensor object at 0x7efda7992d10>
+<built-in method sum of Tensor object at 0x7efda7a5ba90>
+<built-in method sum of Tensor object at 0x7efda7992950>
+<built-in method sum of Tensor object at 0x7efda7a5b9a0>
+<built-in method sum of Tensor object at 0x7efda7992090>
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 31, in train_func
+    for batch in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1207, in _next_data
+    idx, data = self._get_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1173, in _get_data
+    success, data = self._try_get_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1011, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 31, in train_func
+    for batch in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1207, in _next_data
+    idx, data = self._get_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1173, in _get_data
+    success, data = self._try_get_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1011, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.8/multiprocessing/queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

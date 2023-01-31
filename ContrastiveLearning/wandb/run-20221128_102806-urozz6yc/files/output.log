@@ -1,0 +1,16 @@
+
+Epoch 1
+Train loss : 0.6937
+[tensor([0, 0, 0])] tensor([1, 0, 0], device='cuda:0')
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 194, in linear_scl
+    print(f"Val loss : {format(val_loss, '.4f')}\tVal AUC : {format(val_se, '.4f')}\tVal F1 : {format(val_sp, '.4f')}\tVal Acc : {format(val_acc, '.4f')}")
+NameError: name 'val_se' is not defined
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 194, in linear_scl
+    print(f"Val loss : {format(val_loss, '.4f')}\tVal AUC : {format(val_se, '.4f')}\tVal F1 : {format(val_sp, '.4f')}\tVal Acc : {format(val_acc, '.4f')}")
+NameError: name 'val_se' is not defined

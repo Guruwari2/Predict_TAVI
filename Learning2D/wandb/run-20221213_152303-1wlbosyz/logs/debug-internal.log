@@ -1,0 +1,160 @@
+2022-12-13 15:23:03,535 INFO    StreamThr :3627670 [internal.py:wandb_internal():90] W&B internal server running at pid: 3627670, started at: 2022-12-13 15:23:03.533361
+2022-12-13 15:23:03,538 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: status
+2022-12-13 15:23:03,545 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: status
+2022-12-13 15:23:03,563 DEBUG   SenderThread:3627670 [sender.py:send():302] send: header
+2022-12-13 15:23:03,564 INFO    WriterThread:3627670 [datastore.py:open_for_write():75] open: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/run-1wlbosyz.wandb
+2022-12-13 15:23:03,635 DEBUG   SenderThread:3627670 [sender.py:send():302] send: run
+2022-12-13 15:23:04,082 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: check_version
+2022-12-13 15:23:04,086 INFO    SenderThread:3627670 [dir_watcher.py:__init__():216] watching files in: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files
+2022-12-13 15:23:04,087 INFO    SenderThread:3627670 [sender.py:_start_run_threads():913] run started: 1wlbosyz with start time 1670941383.540903
+2022-12-13 15:23:04,087 DEBUG   SenderThread:3627670 [sender.py:send():302] send: summary
+2022-12-13 15:23:04,090 INFO    SenderThread:3627670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 15:23:04,091 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: check_version
+2022-12-13 15:23:04,259 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: run_start
+2022-12-13 15:23:04,268 DEBUG   HandlerThread:3627670 [meta.py:__init__():35] meta init
+2022-12-13 15:23:04,268 DEBUG   HandlerThread:3627670 [meta.py:__init__():50] meta init done
+2022-12-13 15:23:04,268 DEBUG   HandlerThread:3627670 [meta.py:probe():216] probe
+2022-12-13 15:23:04,277 DEBUG   HandlerThread:3627670 [meta.py:_setup_git():206] setup git
+2022-12-13 15:23:04,341 DEBUG   HandlerThread:3627670 [meta.py:_setup_git():213] setup git done
+2022-12-13 15:23:04,342 DEBUG   HandlerThread:3627670 [meta.py:_save_pip():54] save pip
+2022-12-13 15:23:04,348 DEBUG   HandlerThread:3627670 [meta.py:_save_pip():68] save pip done
+2022-12-13 15:23:04,348 DEBUG   HandlerThread:3627670 [meta.py:probe():254] probe done
+2022-12-13 15:23:04,597 DEBUG   SenderThread:3627670 [sender.py:send():302] send: files
+2022-12-13 15:23:04,598 INFO    SenderThread:3627670 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-12-13 15:23:04,621 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 15:23:04,622 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 15:23:04,811 DEBUG   SenderThread:3627670 [sender.py:send():302] send: telemetry
+2022-12-13 15:23:05,093 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_created():275] file/dir created: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-metadata.json
+2022-12-13 15:23:05,093 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_created():275] file/dir created: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/requirements.txt
+2022-12-13 15:23:05,094 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_created():275] file/dir created: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-summary.json
+2022-12-13 15:23:05,148 INFO    Thread-16 :3627670 [upload_job.py:push():138] Uploaded file /tmp/tmpjs9n0x9bwandb/2zggjbqw-wandb-metadata.json
+2022-12-13 15:23:14,104 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_created():275] file/dir created: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log
+2022-12-13 15:23:16,108 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log
+2022-12-13 15:23:19,895 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 15:23:19,895 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 15:23:31,811 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:31,812 DEBUG   SenderThread:3627670 [sender.py:send():302] send: exit
+2022-12-13 15:23:31,812 INFO    SenderThread:3627670 [sender.py:send_exit():438] handling exit code: 1
+2022-12-13 15:23:31,813 INFO    SenderThread:3627670 [sender.py:send_exit():440] handling runtime: 27
+2022-12-13 15:23:31,817 INFO    SenderThread:3627670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 15:23:31,818 INFO    SenderThread:3627670 [sender.py:send_exit():446] send defer
+2022-12-13 15:23:31,819 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:31,820 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,820 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 0
+2022-12-13 15:23:31,821 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,821 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-12-13 15:23:31,821 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 1
+2022-12-13 15:23:31,822 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,822 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 1
+2022-12-13 15:23:31,968 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,969 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:31,969 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-12-13 15:23:31,970 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 2
+2022-12-13 15:23:31,970 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:31,970 DEBUG   SenderThread:3627670 [sender.py:send():302] send: stats
+2022-12-13 15:23:31,972 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,972 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 2
+2022-12-13 15:23:31,972 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,973 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-12-13 15:23:31,973 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 3
+2022-12-13 15:23:31,973 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,973 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 3
+2022-12-13 15:23:31,974 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,974 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-12-13 15:23:31,974 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 4
+2022-12-13 15:23:31,974 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,974 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 4
+2022-12-13 15:23:31,975 DEBUG   SenderThread:3627670 [sender.py:send():302] send: summary
+2022-12-13 15:23:31,978 INFO    SenderThread:3627670 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 15:23:31,979 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,979 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-12-13 15:23:31,979 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 5
+2022-12-13 15:23:31,980 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:31,980 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 5
+2022-12-13 15:23:31,981 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:31,981 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-12-13 15:23:32,073 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:32,214 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 6
+2022-12-13 15:23:32,214 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:32,215 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:32,216 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 6
+2022-12-13 15:23:32,216 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:32,217 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-12-13 15:23:32,251 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/config.yaml
+2022-12-13 15:23:32,251 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-summary.json
+2022-12-13 15:23:32,318 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:34,255 INFO    Thread-12 :3627670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log
+2022-12-13 15:23:35,773 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 7
+2022-12-13 15:23:35,773 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:35,775 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:35,775 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 7
+2022-12-13 15:23:35,775 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:35,776 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-12-13 15:23:35,776 INFO    SenderThread:3627670 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-13 15:23:35,877 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,258 INFO    SenderThread:3627670 [dir_watcher.py:_on_file_modified():292] file/dir modified: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log
+2022-12-13 15:23:36,259 INFO    SenderThread:3627670 [dir_watcher.py:finish():392] scan: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files
+2022-12-13 15:23:36,260 INFO    SenderThread:3627670 [dir_watcher.py:finish():406] scan save: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/config.yaml config.yaml
+2022-12-13 15:23:36,261 INFO    SenderThread:3627670 [dir_watcher.py:finish():406] scan save: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-summary.json wandb-summary.json
+2022-12-13 15:23:36,262 INFO    SenderThread:3627670 [dir_watcher.py:finish():406] scan save: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/requirements.txt requirements.txt
+2022-12-13 15:23:36,270 INFO    SenderThread:3627670 [dir_watcher.py:finish():406] scan save: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-metadata.json wandb-metadata.json
+2022-12-13 15:23:36,271 INFO    SenderThread:3627670 [dir_watcher.py:finish():406] scan save: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log output.log
+2022-12-13 15:23:36,290 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 8
+2022-12-13 15:23:36,290 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,293 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:36,293 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 8
+2022-12-13 15:23:36,301 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:36,301 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-12-13 15:23:36,302 INFO    SenderThread:3627670 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-13 15:23:36,403 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,403 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,512 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,514 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,625 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,625 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,727 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,728 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,830 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,831 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:36,845 INFO    Thread-19 :3627670 [upload_job.py:push():138] Uploaded file /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/requirements.txt
+2022-12-13 15:23:36,860 INFO    Thread-17 :3627670 [upload_job.py:push():138] Uploaded file /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/config.yaml
+2022-12-13 15:23:36,875 INFO    Thread-20 :3627670 [upload_job.py:push():138] Uploaded file /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/output.log
+2022-12-13 15:23:36,909 INFO    Thread-18 :3627670 [upload_job.py:push():138] Uploaded file /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/files/wandb-summary.json
+2022-12-13 15:23:36,933 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:36,933 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:37,035 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:37,036 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:37,110 INFO    Thread-11 :3627670 [sender.py:transition_state():459] send defer: 9
+2022-12-13 15:23:37,111 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:37,112 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 9
+2022-12-13 15:23:37,112 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:37,113 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-12-13 15:23:37,138 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:37,343 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 10
+2022-12-13 15:23:37,343 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:37,345 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:37,346 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 10
+2022-12-13 15:23:37,346 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:37,347 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-12-13 15:23:37,347 INFO    SenderThread:3627670 [sender.py:transition_state():459] send defer: 11
+2022-12-13 15:23:37,349 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 15:23:37,349 DEBUG   SenderThread:3627670 [sender.py:send():302] send: final
+2022-12-13 15:23:37,349 INFO    HandlerThread:3627670 [handler.py:handle_request_defer():164] handle defer: 11
+2022-12-13 15:23:37,349 DEBUG   SenderThread:3627670 [sender.py:send():302] send: footer
+2022-12-13 15:23:37,350 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: defer
+2022-12-13 15:23:37,350 INFO    SenderThread:3627670 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-12-13 15:23:37,448 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 15:23:37,448 DEBUG   SenderThread:3627670 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 15:23:37,449 INFO    SenderThread:3627670 [file_pusher.py:join():176] waiting for file pusher
+2022-12-13 15:23:37,917 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: sampled_history
+2022-12-13 15:23:37,918 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: get_summary
+2022-12-13 15:23:37,919 INFO    MainThread:3627670 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-12-13 15:23:37,919 INFO    MainThread:3627670 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-12-13 15:23:37,919 INFO    MainThread:3627670 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-12-13 15:23:37,920 DEBUG   HandlerThread:3627670 [handler.py:handle_request():141] handle_request: shutdown
+2022-12-13 15:23:37,920 INFO    HandlerThread:3627670 [handler.py:finish():810] shutting down handler
+2022-12-13 15:23:38,349 INFO    WriterThread:3627670 [datastore.py:close():279] close: /homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/wandb/run-20221213_152303-1wlbosyz/run-1wlbosyz.wandb
+2022-12-13 15:23:38,815 INFO    SenderThread:3627670 [sender.py:finish():1312] shutting down sender
+2022-12-13 15:23:38,815 INFO    SenderThread:3627670 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-13 15:23:38,815 INFO    SenderThread:3627670 [file_pusher.py:join():176] waiting for file pusher
+2022-12-13 15:23:38,924 INFO    MainThread:3627670 [internal.py:handle_exit():80] Internal process exited

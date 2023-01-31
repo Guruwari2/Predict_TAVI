@@ -1,0 +1,28 @@
+
+Epoch: 1
+Loss nan
+tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+ tensor([1., 0., 0., 0., 0., 0.], device='cuda:0')
+acc : 0.80392, auc: 0.50000, f1: 0.00000
+metric_best (0.000000 --> 0.500000). Saving model ...
+Epoch: 2
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 38, in train_func
+    loss = criterion(logits, targets)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 38, in train_func
+    loss = criterion(logits, targets)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

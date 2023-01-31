@@ -1,0 +1,53 @@
+
+Epoch: 1
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+torch.Size([98, 3, 100, 100])
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 23, in train_func
+    for images, targets in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+NameError: Caught NameError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 41, in __getitem__
+    transforms_dict = {tio.RandomNoise(std=50):0.25,tio.RandomGamma(0.3):0.25,tio.RandomSwap(2):0.25,tio.RandomAffine(scales=(0.96, 1.04),degrees=15):0.25}
+NameError: name 'tio' is not defined
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 23, in train_func
+    for images, targets in loader_train:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/_utils.py", line 457, in reraise
+    raise exception
+NameError: Caught NameError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 41, in __getitem__
+    transforms_dict = {tio.RandomNoise(std=50):0.25,tio.RandomGamma(0.3):0.25,tio.RandomSwap(2):0.25,tio.RandomAffine(scales=(0.96, 1.04),degrees=15):0.25}
+NameError: name 'tio' is not defined

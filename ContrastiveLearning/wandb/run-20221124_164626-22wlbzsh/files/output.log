@@ -1,0 +1,142 @@
+
+Epoch 1
+Current Train Loss : 1.6458
+Epoch 2
+Current Train Loss : 1.6288
+Epoch 3
+Current Train Loss : 1.6095
+Epoch 4
+Current Train Loss : 1.6089
+Epoch 5
+Current Train Loss : 1.6104
+Epoch 6
+Current Train Loss : 1.6135
+Epoch 7
+Current Train Loss : 1.6131
+Epoch 8
+Current Train Loss : 1.6308
+Epoch 9
+Current Train Loss : 1.6094
+Epoch 10
+Current Train Loss : 1.6094
+Epoch 11
+Current Train Loss : 1.6230
+Epoch 12
+Current Train Loss : 1.6094
+Epoch 13
+Current Train Loss : 1.6094
+Epoch 14
+Current Train Loss : 1.6094
+Epoch 15
+Current Train Loss : 1.6094
+Epoch 16
+Current Train Loss : 1.6094
+Epoch 17
+Current Train Loss : 1.6094
+Epoch 18
+Current Train Loss : 1.6094
+Epoch 19
+Current Train Loss : 1.6094
+Epoch 20
+Current Train Loss : 1.6094
+Epoch 21
+Current Train Loss : 1.6094
+Epoch 22
+Current Train Loss : 1.6094
+Epoch 23
+Current Train Loss : 1.6094
+Epoch 24
+Current Train Loss : 1.6094
+Epoch 25
+Current Train Loss : 1.6094
+Epoch 26
+Current Train Loss : 1.6094
+Epoch 27
+Current Train Loss : 1.6094
+Epoch 28
+Current Train Loss : 1.6094
+Epoch 29
+Current Train Loss : 1.6094
+Epoch 30
+Current Train Loss : 1.6094
+Epoch 31
+Current Train Loss : 1.6094
+Epoch 32
+Current Train Loss : 1.6094
+Epoch 33
+Current Train Loss : 1.6094
+Epoch 34
+Current Train Loss : 1.6094
+Epoch 35
+Current Train Loss : 1.6094
+Epoch 36
+Current Train Loss : 1.6094
+Epoch 37
+Current Train Loss : 1.6094
+Epoch 38
+Current Train Loss : 1.6094
+Epoch 39
+Current Train Loss : 1.6094
+Epoch 40
+Current Train Loss : 1.6094
+Epoch 41
+Current Train Loss : 1.6094
+Epoch 42
+Current Train Loss : 1.6094
+Epoch 43
+Current Train Loss : 1.6094
+Epoch 44
+Current Train Loss : 1.6094
+Epoch 45
+Current Train Loss : 1.6094
+Epoch 46
+Current Train Loss : 1.6094
+Epoch 47
+Current Train Loss : 1.6094
+Epoch 48
+Current Train Loss : 1.6094
+Epoch 49
+Current Train Loss : 1.6094
+Epoch 50
+Current Train Loss : 1.6094
+Epoch 51
+Current Train Loss : 1.6094
+Epoch 52
+Current Train Loss : 1.6094
+Epoch 53
+Current Train Loss : 1.6094
+Epoch 54
+Current Train Loss : 1.6094
+Epoch 55
+Current Train Loss : 1.6094
+Epoch 56
+Current Train Loss : 1.6094
+Epoch 57
+Current Train Loss : 1.6094
+Epoch 58
+Current Train Loss : 1.6094
+Epoch 59
+Current Train Loss : 1.6094
+Epoch 60
+Current Train Loss : 1.6094
+Epoch 61
+Current Train Loss : 1.6094
+Epoch 62
+Current Train Loss : 1.6094
+Epoch 63
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 64, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 37, in train_epoch_scl
+    data_1, data_2 = data_1.to('cuda'), data_2.to('cuda')
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 64, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 37, in train_epoch_scl
+    data_1, data_2 = data_1.to('cuda'), data_2.to('cuda')
+KeyboardInterrupt

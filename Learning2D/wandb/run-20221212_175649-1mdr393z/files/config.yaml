@@ -1,0 +1,70 @@
+wandb_version: 1
+
+Analyse:
+  desc: null
+  value: 2.5D
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1670864209.603589
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      - 80
+      2:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      - 80
+      3:
+      - 16
+      - 23
+      4: 3.8.10
+      5: 0.13.2
+      8:
+      - 6
+augment:
+  desc: null
+  value: true
+bs:
+  desc: null
+  value: 8
+model:
+  desc: null
+  value: resnet10
+n_epoch:
+  desc: null
+  value: 80
+name_target:
+  desc: null
+  value: pm_post_tavi
+normalization:
+  desc: null
+  value: global
+oversample:
+  desc: null
+  value: true
+size:
+  desc: null
+  value: 100
+type_scan:
+  desc: null
+  value: diastole
+use_wandb:
+  desc: null
+  value: true

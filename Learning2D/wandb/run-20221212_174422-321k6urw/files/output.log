@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "main.py", line 59, in <module>
+    list_dls = compute_dict(dict_config, 'newsplits_no_val_df.pkl')
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 73, in compute_dict
+    dataset = CTScanDataset(df_train.reset_index(drop=True),splits_id, name_target=name_target,type_scan=type_scan,augment=augment,size=size)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 24, in __init__
+    self.transform = transform
+NameError: name 'transform' is not defined
+Traceback (most recent call last):
+  File "main.py", line 59, in <module>
+    list_dls = compute_dict(dict_config, 'newsplits_no_val_df.pkl')
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 73, in compute_dict
+    dataset = CTScanDataset(df_train.reset_index(drop=True),splits_id, name_target=name_target,type_scan=type_scan,augment=augment,size=size)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/Dataloader.py", line 24, in __init__
+    self.transform = transform
+NameError: name 'transform' is not defined

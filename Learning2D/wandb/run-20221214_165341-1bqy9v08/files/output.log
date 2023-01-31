@@ -1,0 +1,70 @@
+
+Epoch: 1
+tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], device='cuda:0') tensor([0., 1., 0., 1., 1., 0.], device='cuda:0')
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 77, in valid_func
+    auc = roc_auc_score(gts,outputs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 571, in roc_auc_score
+    return _average_binary_score(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 344, in _binary_roc_auc_score
+    fpr, tpr, _ = roc_curve(y_true, y_score, sample_weight=sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 981, in roc_curve
+    fps, tps, thresholds = _binary_clf_curve(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 742, in _binary_clf_curve
+    check_consistent_length(y_true, y_score, sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/utils/validation.py", line 387, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [102, 9996]
+Traceback (most recent call last):
+  File "main.py", line 91, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 77, in valid_func
+    auc = roc_auc_score(gts,outputs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 571, in roc_auc_score
+    return _average_binary_score(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 344, in _binary_roc_auc_score
+    fpr, tpr, _ = roc_curve(y_true, y_score, sample_weight=sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 981, in roc_curve
+    fps, tps, thresholds = _binary_clf_curve(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_ranking.py", line 742, in _binary_clf_curve
+    check_consistent_length(y_true, y_score, sample_weight)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/utils/validation.py", line 387, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [102, 9996]
+tensor([0., 1., 0., 1., 1., 0., 0., 0., 0., 1., 1., 0., 1., 0., 0., 1., 0., 0.,
+        1., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 1., 0., 0.,
+        0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 1., 0.,
+        0., 0., 0., 1., 1., 0., 0., 0., 0., 0., 0., 0.])
+tensor([0, 0, 0,  ..., 0, 0, 0])

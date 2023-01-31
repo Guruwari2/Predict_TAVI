@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-131-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-11-22T16:26:24.727735",
+    "startedAt": "2022-11-22T16:26:23.937468",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "ContrastiveLearning/main.py",
+    "git": {
+        "remote": "https://github.com/elouayas/predict_tavi.git",
+        "commit": "0f3e6e20cddd54c9372b75124128241f0871fa3b"
+    },
+    "email": null,
+    "root": "/homes/n20darja/StageCesureCoeur/predict_tavi",
+    "host": "sl-tp-br-010",
+    "username": "n20darja",
+    "executable": "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/bin/python3"
+}

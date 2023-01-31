@@ -1,0 +1,99 @@
+
+Epoch 1
+Current Train Loss : 1.0866
+Epoch 2
+Current Train Loss : 1.0672
+Epoch 3
+Current Train Loss : 1.0809
+Epoch 4
+Current Train Loss : 1.0709
+Epoch 5
+Current Train Loss : 1.0763
+Epoch 6
+Current Train Loss : 1.0767
+Epoch 7
+Current Train Loss : 1.0507
+Epoch 8
+Current Train Loss : 1.0540
+Epoch 9
+Current Train Loss : 1.0351
+Epoch 10
+Current Train Loss : 1.0460
+Epoch 11
+Current Train Loss : 1.0390
+Epoch 12
+Current Train Loss : 0.9939
+Epoch 13
+Current Train Loss : 1.0273
+Epoch 14
+Current Train Loss : 1.0489
+Epoch 15
+Current Train Loss : 1.0299
+Epoch 16
+Current Train Loss : 0.9820
+Epoch 17
+Current Train Loss : 0.9402
+Epoch 18
+Current Train Loss : 0.9442
+Epoch 19
+Current Train Loss : 0.9864
+Epoch 20
+Current Train Loss : 1.0420
+Epoch 21
+Current Train Loss : 1.0573
+Epoch 22
+Current Train Loss : 1.0228
+Epoch 23
+Current Train Loss : 1.0178
+Epoch 24
+Current Train Loss : 0.9895
+Epoch 25
+Current Train Loss : 1.0125
+Epoch 26
+Current Train Loss : 1.0075
+Epoch 27
+Current Train Loss : 0.9958
+Epoch 28
+Current Train Loss : 0.9575
+Epoch 29
+Current Train Loss : 0.9346
+Epoch 30
+Current Train Loss : 0.9368
+Epoch 31
+Current Train Loss : 0.9228
+Epoch 32
+Current Train Loss : 0.9445
+Epoch 33
+Current Train Loss : 0.9151
+Epoch 34
+Current Train Loss : 0.8860
+Epoch 35
+Current Train Loss : 0.9425
+Epoch 36
+Current Train Loss : 0.9238
+Epoch 37
+Current Train Loss : 0.9137
+Epoch 38
+Current Train Loss : 0.9292
+Epoch 39
+Current Train Loss : 0.8566
+Epoch 40
+Current Train Loss : 0.9210
+Last Loss : 0.9210	Best Loss : 0.8566
+Epoch 1
+Traceback (most recent call last):
+  File "main.py", line 74, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 179, in linear_scl
+    train_loss, train_se, train_sp, train_icbhi_score, train_acc = linear_train_epoch(encoder, classifier, train_loader, criterion, optimizer)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 101, in linear_train_epoch
+    loss = criterion(output, target)
+NameError: name 'target' is not defined
+Traceback (most recent call last):
+  File "main.py", line 74, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 179, in linear_scl
+    train_loss, train_se, train_sp, train_icbhi_score, train_acc = linear_train_epoch(encoder, classifier, train_loader, criterion, optimizer)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 101, in linear_train_epoch
+    loss = criterion(output, target)
+NameError: name 'target' is not defined

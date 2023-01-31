@@ -1,0 +1,44 @@
+
+Epoch: 1
+[0.7955619692802429, 0.6242280006408691, 1.0104705095291138, 0.8474038243293762, 0.8069645762443542, 0.8667622208595276, 0.8785356283187866, 0.8080337047576904, 0.6922012567520142, 0.6627175211906433, 0.7380691766738892, 0.6542503833770752, 0.6110062599182129, 0.8592135310173035, 0.6190207600593567, 0.8184581995010376, 0.7571446299552917, 0.6447951197624207, 0.5912503004074097, 0.9609970450401306, 0.6520397067070007, 0.8563873767852783, 0.9572598338127136, 0.5559135675430298, 0.6007837653160095, 0.9851782917976379, 0.6571509838104248, 0.7210692167282104, 0.5782601237297058, 0.6336377859115601, 0.5972436666488647, 0.6511244177818298, 0.6728313565254211, 0.8163876533508301, 0.7371402382850647, 0.7596195936203003, 0.6121665239334106, 0.6231474280357361, 0.8310050368309021, 0.7565083503723145, 0.5908939242362976, 0.9332277774810791, 0.6866965889930725, 0.6580069661140442, 0.6935611367225647, 0.6768645644187927, 0.92811119556427, 0.7812641859054565, 0.6538974642753601, 0.8042134642601013, 0.7124373316764832, 0.7327454686164856, 0.687760055065155, 0.8179944753646851, 0.543916642665863, 0.8754525184631348, 0.6249054670333862, 0.8427462577819824, 0.8308159112930298, 0.9578919410705566, 0.5907416939735413, 0.6731907725334167, 0.5528143644332886, 0.6537358164787292, 0.8615476489067078, 0.6503362059593201, 0.7603592872619629, 0.44076064229011536, 0.7468165755271912, 0.8918352723121643, 0.9856764078140259, 0.7492932677268982, 0.5855337977409363, 0.7026809453964233, 0.609237551689148, 0.6104615926742554, 0.5342403650283813, 0.8847805857658386, 0.8094144463539124, 0.6971144676208496, 0.8102350831031799, 0.7639256119728088, 0.6137259602546692, 0.615302562713623, 0.6403156518936157, 0.5793002247810364, 0.794624924659729, 0.7042312026023865, 0.7799515128135681, 0.853909969329834, 0.6509649753570557, 0.8323689699172974, 0.6736897230148315, 0.726290762424469, 0.8467651605606079, 0.7551677823066711, 0.6063662171363831, 0.6740403771400452, 0.6516277194023132, 0.6069957613945007, 0.8233440518379211, 0.8512197136878967, 0.6022356152534485, 0.612953245639801, 0.804219663143158, 0.5973839163780212, 0.5111792683601379, 0.7899444103240967, 0.6875990033149719, 0.7411807179450989, 0.678767204284668, 0.5216603875160217, 0.7696451544761658, 0.5482708215713501, 0.6879585981369019, 0.5919367671012878, 0.43096810579299927, 0.6865183115005493, 0.6620960831642151, 0.8071405291557312, 0.5888125896453857, 0.7675705552101135, 0.7246950268745422, 0.8051926493644714, 0.6179310083389282, 0.693316638469696, 0.696654736995697, 0.6185799241065979, 0.5297309756278992]
+0.7143753519815992
+Loss : 0.71438 tensor([0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 1., 0., 0., 0., 0., 0., 1., 1., 0., 0., 0., 0., 0., 1., 0.,
+        0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.,
+        0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1.,
+        1., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 1.])
+tensor([29, 38, 56, 37,  7, 60, 10,  3, 62,  0, 96, 39, 12, 11, 49, 11, 38,  6,
+        97, 78, 97, 56,  0, 64,  9, 44, 22, 10, 70,  8, 65, 13, 25, 97, 55, 80,
+        57, 24, 91, 81,  0, 23, 82,  0, 48, 92, 97,  2, 30, 38, 24, 21, 11, 53,
+         0, 62, 55, 33, 93, 97, 71,  0, 97, 95, 97, 73, 97, 57, 75, 76,  8, 65,
+        20, 71, 97, 62,  2, 20, 60, 57,  0, 18,  0, 70,  0, 97, 81, 69, 26, 97,
+        21, 78, 55, 97, 73, 97, 91, 92, 77, 84, 48, 25])
+Traceback (most recent call last):
+  File "main.py", line 90, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 79, in valid_func
+    f1 = f1_score(gts,outputs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1136, in f1_score
+    return fbeta_score(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1277, in fbeta_score
+    _, _, f, _ = precision_recall_fscore_support(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1563, in precision_recall_fscore_support
+    labels = _check_set_wise_labels(y_true, y_pred, average, labels, pos_label)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1381, in _check_set_wise_labels
+    raise ValueError(
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+Traceback (most recent call last):
+  File "main.py", line 90, in <module>
+    acc, auc, f1 = valid_func(model, loader_valid)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 79, in valid_func
+    f1 = f1_score(gts,outputs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1136, in f1_score
+    return fbeta_score(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1277, in fbeta_score
+    _, _, f, _ = precision_recall_fscore_support(
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1563, in precision_recall_fscore_support
+    labels = _check_set_wise_labels(y_true, y_pred, average, labels, pos_label)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 1381, in _check_set_wise_labels
+    raise ValueError(
+ValueError: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].

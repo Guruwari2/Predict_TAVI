@@ -1,0 +1,18 @@
+
+Epoch 1
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 49, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 14, in train_epoch_scl
+    transforms_dict = {tio.RandomNoise(std=75):0.33,tio.RandomGamma(0.3):0.34,tio.RandomSwap():0,tio.RandomAffine(scales=(0.96, 1.04),degrees=20):0.33}
+NameError: name 'tio' is not defined
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 49, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 14, in train_epoch_scl
+    transforms_dict = {tio.RandomNoise(std=75):0.33,tio.RandomGamma(0.3):0.34,tio.RandomSwap():0,tio.RandomAffine(scales=(0.96, 1.04),degrees=20):0.33}
+NameError: name 'tio' is not defined

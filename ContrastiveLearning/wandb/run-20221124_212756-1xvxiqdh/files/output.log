@@ -1,0 +1,245 @@
+
+Epoch 1
+Current Train Loss : 1.6155
+Epoch 2
+Current Train Loss : 1.6094
+Epoch 3
+Current Train Loss : 1.6091
+Epoch 4
+Current Train Loss : 1.6110
+Epoch 5
+Current Train Loss : 1.6095
+Epoch 6
+Current Train Loss : 1.6094
+Epoch 7
+Current Train Loss : 1.6096
+Epoch 8
+Current Train Loss : 1.6127
+Epoch 9
+Current Train Loss : 1.6093
+Epoch 10
+Current Train Loss : 1.6099
+Epoch 11
+Current Train Loss : 1.6091
+Epoch 12
+Current Train Loss : 1.6118
+Epoch 13
+Current Train Loss : 1.6095
+Epoch 14
+Current Train Loss : 1.6094
+Epoch 15
+Current Train Loss : 1.6096
+Epoch 16
+Current Train Loss : 1.6094
+Epoch 17
+Current Train Loss : 1.6094
+Epoch 18
+Current Train Loss : 1.6087
+Epoch 19
+Current Train Loss : 1.6094
+Epoch 20
+Current Train Loss : 1.6094
+Epoch 21
+Current Train Loss : 1.6094
+Epoch 22
+Current Train Loss : 1.6094
+Epoch 23
+Current Train Loss : 1.6094
+Epoch 24
+Current Train Loss : 1.6114
+Epoch 25
+Current Train Loss : 1.6094
+Epoch 26
+Current Train Loss : 1.6080
+Epoch 27
+Current Train Loss : 1.6100
+Epoch 28
+Current Train Loss : 1.6083
+Epoch 29
+Current Train Loss : 1.6091
+Epoch 30
+Current Train Loss : 1.6081
+Epoch 31
+Current Train Loss : 1.6075
+Epoch 32
+Current Train Loss : 1.6080
+Epoch 33
+Current Train Loss : 1.6059
+Epoch 34
+Current Train Loss : 1.6045
+Epoch 35
+Current Train Loss : 1.6005
+Epoch 36
+Current Train Loss : 1.6113
+Epoch 37
+Current Train Loss : 1.6006
+Epoch 38
+Current Train Loss : 1.6023
+Epoch 39
+Current Train Loss : 1.6017
+Epoch 40
+Current Train Loss : 1.5996
+Epoch 41
+Current Train Loss : 1.5959
+Epoch 42
+Current Train Loss : 1.6050
+Epoch 43
+Current Train Loss : 1.5965
+Epoch 44
+Current Train Loss : 1.6068
+Epoch 45
+Current Train Loss : 1.5984
+Epoch 46
+Current Train Loss : 1.6008
+Epoch 47
+Current Train Loss : 1.5875
+Epoch 48
+Current Train Loss : 1.6035
+Epoch 49
+Current Train Loss : 1.6012
+Epoch 50
+Current Train Loss : 1.6015
+Epoch 51
+Current Train Loss : 1.6013
+Epoch 52
+Current Train Loss : 1.6071
+Epoch 53
+Current Train Loss : 1.6078
+Epoch 54
+Current Train Loss : 1.6071
+Epoch 55
+Current Train Loss : 1.6076
+Epoch 56
+Current Train Loss : 1.6087
+Epoch 57
+Current Train Loss : 1.6075
+Epoch 58
+Current Train Loss : 1.6087
+Epoch 59
+Current Train Loss : 1.6096
+Epoch 60
+Current Train Loss : 1.6092
+Epoch 61
+Current Train Loss : 1.6073
+Epoch 62
+Current Train Loss : 1.6093
+Epoch 63
+Current Train Loss : 1.6276
+Epoch 64
+Current Train Loss : 1.6094
+Epoch 65
+Current Train Loss : 1.6094
+Epoch 66
+Current Train Loss : 1.6094
+Epoch 67
+Current Train Loss : 1.6094
+Epoch 68
+Current Train Loss : 1.6094
+Epoch 69
+Current Train Loss : 1.6094
+Epoch 70
+Current Train Loss : 1.6094
+Epoch 71
+Current Train Loss : 1.6094
+Epoch 72
+Current Train Loss : 1.6094
+Epoch 73
+Current Train Loss : 1.6094
+Epoch 74
+Current Train Loss : 1.6094
+Epoch 75
+Current Train Loss : 1.6094
+Epoch 76
+Current Train Loss : 1.6094
+Epoch 77
+Current Train Loss : 1.6094
+Epoch 78
+Current Train Loss : 1.6094
+Epoch 79
+Current Train Loss : 1.6094
+Epoch 80
+Current Train Loss : 1.6094
+Epoch 81
+Current Train Loss : 1.6094
+Epoch 82
+Current Train Loss : 1.6094
+Epoch 83
+Current Train Loss : 1.6094
+Epoch 84
+Current Train Loss : 1.6094
+Epoch 85
+Current Train Loss : 1.6094
+Epoch 86
+Current Train Loss : 1.6094
+Epoch 87
+Current Train Loss : 1.6094
+Epoch 88
+Current Train Loss : 1.6094
+Epoch 89
+Current Train Loss : 1.6094
+Epoch 90
+Current Train Loss : 1.6094
+Epoch 91
+Current Train Loss : 1.6094
+Epoch 92
+Current Train Loss : 1.6094
+Epoch 93
+Current Train Loss : 1.6094
+Epoch 94
+Current Train Loss : 1.6094
+Epoch 95
+Current Train Loss : 1.6094
+Epoch 96
+Current Train Loss : 1.6094
+Epoch 97
+Current Train Loss : 1.6094
+Epoch 98
+Current Train Loss : 1.6094
+Epoch 99
+Current Train Loss : 1.6094
+Epoch 100
+Current Train Loss : 1.6094
+Epoch 101
+Current Train Loss : 1.6094
+Epoch 102
+Current Train Loss : 1.6094
+Epoch 103
+Current Train Loss : 1.6094
+Epoch 104
+Current Train Loss : 1.6094
+Epoch 105
+Current Train Loss : 1.6094
+Epoch 106
+Current Train Loss : 1.6094
+Epoch 107
+Current Train Loss : 1.6094
+Epoch 108
+Current Train Loss : 1.6094
+Epoch 109
+Current Train Loss : 1.6094
+Epoch 110
+Current Train Loss : 1.6094
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 77, in train_scl
+    torch.save(encoder.state_dict(), '/model/contrastive.pth')
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 377, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] Aucun fichier ou dossier de ce type: '/model/contrastive.pth'
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 77, in train_scl
+    torch.save(encoder.state_dict(), '/model/contrastive.pth')
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 377, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] Aucun fichier ou dossier de ce type: '/model/contrastive.pth'

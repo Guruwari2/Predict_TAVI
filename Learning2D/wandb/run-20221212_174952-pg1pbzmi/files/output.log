@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 69, in <module>
+    model = TimmModel(backbone, bs, in_chans = 3, pretrained=True)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 11, in __init__
+    t
+NameError: name 't' is not defined
+Traceback (most recent call last):
+  File "main.py", line 69, in <module>
+    model = TimmModel(backbone, bs, in_chans = 3, pretrained=True)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 11, in __init__
+    t
+NameError: name 't' is not defined

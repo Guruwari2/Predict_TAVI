@@ -1,0 +1,14 @@
+
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-effv2-weights/tf_efficientnetv2_s_21ft1k-d7dafa41.pth" to /homes/n20darja/.cache/torch/hub/checkpoints/tf_efficientnetv2_s_21ft1k-d7dafa41.pth
+Traceback (most recent call last):
+  File "main.py", line 69, in <module>
+    model = TimmModel(backbone, bs, in_chans = 3, pretrained=True)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 31, in __init__
+    nn.Linear(256, out_dim),
+NameError: name 'out_dim' is not defined
+Traceback (most recent call last):
+  File "main.py", line 69, in <module>
+    model = TimmModel(backbone, bs, in_chans = 3, pretrained=True)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 31, in __init__
+    nn.Linear(256, out_dim),
+NameError: name 'out_dim' is not defined

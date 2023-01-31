@@ -1,0 +1,43 @@
+
+Epoch 1
+image
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 51, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 22, in train_epoch_scl
+    data_t1 = transform(data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 51, in apply_transform
+    subject = transform(subject)  # type: ignore[assignment]
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 113, in apply_transform
+    transformed = transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 147, in __call__
+    subject = data_parser.get_subject()
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 88, in get_subject
+    raise ValueError(f'Input type not recognized: {type(self.data)}')
+ValueError: Input type not recognized: <class 'str'>
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 51, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 22, in train_epoch_scl
+    data_t1 = transform(data)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 51, in apply_transform
+    subject = transform(subject)  # type: ignore[assignment]
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 158, in __call__
+    transformed = self.apply_transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/augmentation/composition.py", line 113, in apply_transform
+    transformed = transform(subject)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/transform.py", line 147, in __call__
+    subject = data_parser.get_subject()
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/torchio/transforms/data_parser.py", line 88, in get_subject
+    raise ValueError(f'Input type not recognized: {type(self.data)}')
+ValueError: Input type not recognized: <class 'str'>

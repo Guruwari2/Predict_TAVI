@@ -1,0 +1,20 @@
+
+Epoch 1
+Train loss : 0.6931
+[tensor([1, 0, 0])] tensor([0, 1, 0], device='cuda:0')
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 190, in linear_scl
+    val_loss, val_auc, val_f1, val_acc = linear_eval_epoch(encoder, classifier, val_loader, criterion)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 152, in linear_eval_epoch
+    gc.collect()
+NameError: name 'gc' is not defined
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 190, in linear_scl
+    val_loss, val_auc, val_f1, val_acc = linear_eval_epoch(encoder, classifier, val_loader, criterion)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 152, in linear_eval_epoch
+    gc.collect()
+NameError: name 'gc' is not defined

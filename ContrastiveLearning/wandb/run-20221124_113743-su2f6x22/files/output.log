@@ -1,0 +1,39 @@
+
+Epoch 1
+torch.Size([30, 163, 163, 110])
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 60, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 34, in train_epoch_scl
+    feat1, feat2 = encoder(data_1), encoder(data_2)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/monai/networks/nets/resnet.py", line 296, in forward
+    x = self.conv1(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 592, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 587, in _conv_forward
+    return F.conv3d(
+RuntimeError: Given groups=1, weight of size [64, 1, 7, 7, 7], expected input[1, 30, 163, 163, 110] to have 1 channels, but got 30 channels instead
+Traceback (most recent call last):
+  File "main.py", line 73, in <module>
+    ssl_train_losses, model, last_checkpoint = train_scl(model, projector, train_loader, criterion, optimizer, scheduler, dict_config['n_epoch_proj'], use_wandb)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 60, in train_scl
+    train_loss = train_epoch_scl(encoder, projector, train_loader, criterion, optimizer, scheduler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/scl.py", line 34, in train_epoch_scl
+    feat1, feat2 = encoder(data_1), encoder(data_2)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/.local/lib/python3.8/site-packages/monai/networks/nets/resnet.py", line 296, in forward
+    x = self.conv1(x)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 592, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 587, in _conv_forward
+    return F.conv3d(
+RuntimeError: Given groups=1, weight of size [64, 1, 7, 7, 7], expected input[1, 30, 163, 163, 110] to have 1 channels, but got 30 channels instead

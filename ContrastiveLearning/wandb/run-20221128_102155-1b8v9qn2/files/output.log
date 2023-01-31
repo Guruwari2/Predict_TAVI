@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+NameError: name 'last_checkpoint' is not defined
+Traceback (most recent call last):
+  File "main.py", line 77, in <module>
+    history = linear_scl(model, last_checkpoint ,classifier, train_loader, test_loader, criterion_ce, optimizer2, dict_config['n_epoch_class'], use_wandb)
+NameError: name 'last_checkpoint' is not defined

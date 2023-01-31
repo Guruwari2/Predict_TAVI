@@ -1,0 +1,350 @@
+
+Epoch 1
+Train loss : 0.6978
+[tensor([0, 0, 0, 0, 1, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.5871	Val AUC : 0.5000	Val F1 : 0.0000	Val Acc : 0.8039
+Epoch 2
+Train loss : 0.6959
+[tensor([0, 0, 0, 1, 1, 1])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 0.7014	Val AUC : 0.4294	Val F1 : 0.1972	Val Acc : 0.4412
+Epoch 3
+Train loss : 0.6900
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 1, 1, 0, 0], device='cuda:0')
+Val loss : 0.6615	Val AUC : 0.5335	Val F1 : 0.2500	Val Acc : 0.7059
+Epoch 4
+Train loss : 0.7046
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 0, 1, 0, 1], device='cuda:0')
+Val loss : 0.8230	Val AUC : 0.4482	Val F1 : 0.2857	Val Acc : 0.2647
+Epoch 5
+Train loss : 0.6832
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 1, 1, 1, 1], device='cuda:0')
+Val loss : 0.8819	Val AUC : 0.5604	Val F1 : 0.3551	Val Acc : 0.3235
+Epoch 6
+Train loss : 0.6697
+[tensor([1, 0, 0, 0, 0, 0])] tensor([1, 1, 0, 0, 1, 1], device='cuda:0')
+Val loss : 0.8253	Val AUC : 0.4872	Val F1 : 0.2647	Val Acc : 0.5098
+Epoch 7
+Train loss : 0.6818
+[tensor([1, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.6030	Val AUC : 0.4562	Val F1 : 0.1081	Val Acc : 0.6765
+Epoch 8
+Train loss : 0.6822
+[tensor([1, 0, 0, 0, 1, 0])] tensor([1, 1, 0, 1, 1, 1], device='cuda:0')
+Val loss : 0.9713	Val AUC : 0.4918	Val F1 : 0.3077	Val Acc : 0.2059
+Epoch 9
+Train loss : 0.6953
+[tensor([1, 0, 1, 0, 0, 0])] tensor([1, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.6353	Val AUC : 0.4946	Val F1 : 0.1667	Val Acc : 0.7059
+Epoch 10
+Train loss : 0.6708
+[tensor([0, 1, 0, 1, 1, 0])] tensor([0, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 0.7655	Val AUC : 0.4994	Val F1 : 0.2727	Val Acc : 0.5294
+Epoch 11
+Train loss : 0.6626
+[tensor([0, 0, 1, 0, 0, 1])] tensor([0, 0, 1, 0, 1, 0], device='cuda:0')
+Val loss : 0.6983	Val AUC : 0.5216	Val F1 : 0.2642	Val Acc : 0.6176
+Epoch 12
+Train loss : 0.6656
+[tensor([0, 1, 0, 0, 0, 1])] tensor([1, 0, 0, 1, 1, 0], device='cuda:0')
+Val loss : 0.6825	Val AUC : 0.4726	Val F1 : 0.2000	Val Acc : 0.6078
+Epoch 13
+Train loss : 0.6636
+[tensor([0, 0, 0, 0, 0, 1])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.6417	Val AUC : 0.4402	Val F1 : 0.1000	Val Acc : 0.6471
+Epoch 14
+Train loss : 0.6636
+[tensor([1, 0, 0, 0, 0, 0])] tensor([1, 1, 0, 1, 1, 1], device='cuda:0')
+Val loss : 0.9640	Val AUC : 0.4106	Val F1 : 0.2569	Val Acc : 0.2059
+Epoch 15
+Train loss : 0.6559
+[tensor([0, 0, 1, 0, 0, 0])] tensor([1, 1, 0, 0, 0, 1], device='cuda:0')
+Val loss : 0.7099	Val AUC : 0.4598	Val F1 : 0.1702	Val Acc : 0.6176
+Epoch 16
+Train loss : 0.6488
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 0, 1, 0, 1], device='cuda:0')
+Val loss : 0.7144	Val AUC : 0.5419	Val F1 : 0.2909	Val Acc : 0.6176
+Epoch 17
+Train loss : 0.6490
+[tensor([1, 1, 0, 0, 1, 0])] tensor([1, 0, 1, 0, 1, 0], device='cuda:0')
+Val loss : 0.6967	Val AUC : 0.4524	Val F1 : 0.2000	Val Acc : 0.5294
+Epoch 18
+Train loss : 0.6402
+[tensor([0, 0, 0, 1, 0, 1])] tensor([1, 1, 0, 0, 1, 0], device='cuda:0')
+Val loss : 0.7091	Val AUC : 0.4020	Val F1 : 0.0870	Val Acc : 0.5882
+Epoch 19
+Train loss : 0.6439
+[tensor([0, 0, 1, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.6332	Val AUC : 0.4640	Val F1 : 0.0645	Val Acc : 0.7157
+Epoch 20
+Train loss : 0.6234
+[tensor([0, 0, 0, 0, 1, 0])] tensor([0, 1, 0, 1, 1, 0], device='cuda:0')
+Val loss : 0.9211	Val AUC : 0.4493	Val F1 : 0.2154	Val Acc : 0.5000
+Epoch 21
+Train loss : 0.6360
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 1, 1, 0, 1], device='cuda:0')
+Val loss : 1.2435	Val AUC : 0.4232	Val F1 : 0.2692	Val Acc : 0.2549
+Epoch 22
+Train loss : 0.6193
+[tensor([0, 1, 1, 0, 0, 0])] tensor([0, 0, 0, 1, 0, 1], device='cuda:0')
+Val loss : 0.8623	Val AUC : 0.4183	Val F1 : 0.1875	Val Acc : 0.4902
+Epoch 23
+Train loss : 0.5943
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 0, 1, 0, 1], device='cuda:0')
+Val loss : 0.8996	Val AUC : 0.4183	Val F1 : 0.1875	Val Acc : 0.4902
+Epoch 24
+Train loss : 0.5570
+[tensor([1, 1, 0, 0, 1, 0])] tensor([0, 1, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.8844	Val AUC : 0.4165	Val F1 : 0.1224	Val Acc : 0.5784
+Epoch 25
+Train loss : 0.5362
+[tensor([0, 0, 1, 0, 1, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 0.8529	Val AUC : 0.4591	Val F1 : 0.1429	Val Acc : 0.6471
+Epoch 26
+Train loss : 0.5366
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 1, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.8760	Val AUC : 0.4104	Val F1 : 0.1200	Val Acc : 0.5686
+Epoch 27
+Train loss : 0.5229
+[tensor([0, 0, 1, 1, 0, 0])] tensor([0, 1, 0, 0, 0, 0], device='cuda:0')
+Val loss : 0.7537	Val AUC : 0.4464	Val F1 : 0.1364	Val Acc : 0.6275
+Epoch 28
+Train loss : 0.5018
+[tensor([0, 0, 1, 0, 1, 0])] tensor([0, 0, 1, 1, 1, 0], device='cuda:0')
+Val loss : 1.0167	Val AUC : 0.5354	Val F1 : 0.2909	Val Acc : 0.6176
+Epoch 29
+Train loss : 0.4941
+[tensor([0, 0, 0, 0, 0, 1])] tensor([1, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 1.0910	Val AUC : 0.4207	Val F1 : 0.1695	Val Acc : 0.5196
+Epoch 30
+Train loss : 0.5171
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 1, 1, 0, 0], device='cuda:0')
+Val loss : 1.6047	Val AUC : 0.4280	Val F1 : 0.2581	Val Acc : 0.3235
+Epoch 31
+Train loss : 0.4445
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 1.2788	Val AUC : 0.4616	Val F1 : 0.2258	Val Acc : 0.5294
+Epoch 32
+Train loss : 0.3815
+[tensor([0, 0, 1, 1, 1, 0])] tensor([1, 0, 0, 0, 1, 1], device='cuda:0')
+Val loss : 1.0282	Val AUC : 0.4711	Val F1 : 0.2143	Val Acc : 0.5686
+Epoch 33
+Train loss : 0.3586
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 1, 1, 0, 0, 1], device='cuda:0')
+Val loss : 1.1197	Val AUC : 0.4738	Val F1 : 0.2333	Val Acc : 0.5490
+Epoch 34
+Train loss : 0.3146
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 1, 1, 0, 0, 1], device='cuda:0')
+Val loss : 1.6002	Val AUC : 0.5162	Val F1 : 0.2857	Val Acc : 0.5098
+Epoch 35
+Train loss : 0.2841
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 1.7028	Val AUC : 0.5063	Val F1 : 0.2857	Val Acc : 0.4608
+Epoch 36
+Train loss : 0.2897
+[tensor([0, 0, 1, 1, 0, 0])] tensor([1, 0, 1, 1, 0, 0], device='cuda:0')
+Val loss : 1.3927	Val AUC : 0.4610	Val F1 : 0.2105	Val Acc : 0.5588
+Epoch 37
+Train loss : 0.2823
+[tensor([0, 1, 0, 0, 1, 0])] tensor([1, 1, 0, 0, 0, 1], device='cuda:0')
+Val loss : 1.0983	Val AUC : 0.4504	Val F1 : 0.1633	Val Acc : 0.5980
+Epoch 38
+Train loss : 0.3910
+[tensor([0, 1, 0, 0, 0, 0])] tensor([1, 1, 1, 0, 1, 1], device='cuda:0')
+Val loss : 2.4080	Val AUC : 0.5218	Val F1 : 0.2817	Val Acc : 0.5000
+Epoch 39
+Train loss : 0.4409
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 1, 1, 0, 0, 0], device='cuda:0')
+Val loss : 1.8928	Val AUC : 0.4970	Val F1 : 0.2174	Val Acc : 0.6471
+Epoch 40
+Train loss : 0.3240
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 1.3476	Val AUC : 0.4673	Val F1 : 0.2258	Val Acc : 0.5294
+Epoch 41
+Train loss : 0.2567
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 1.2637	Val AUC : 0.4734	Val F1 : 0.2295	Val Acc : 0.5392
+Epoch 42
+Train loss : 0.2382
+[tensor([0, 1, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 1.2022	Val AUC : 0.5035	Val F1 : 0.2500	Val Acc : 0.5882
+Epoch 43
+Train loss : 0.1994
+[tensor([1, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 1.1263	Val AUC : 0.5409	Val F1 : 0.2857	Val Acc : 0.6569
+Epoch 44
+Train loss : 0.1684
+[tensor([0, 1, 0, 0, 1, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 1.2950	Val AUC : 0.5254	Val F1 : 0.2553	Val Acc : 0.6569
+Epoch 45
+Train loss : 0.1580
+[tensor([0, 1, 0, 1, 0, 0])] tensor([1, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 1.3992	Val AUC : 0.5035	Val F1 : 0.2500	Val Acc : 0.5882
+Epoch 46
+Train loss : 0.1172
+[tensor([0, 0, 1, 0, 0, 0])] tensor([0, 1, 1, 1, 0, 0], device='cuda:0')
+Val loss : 1.7298	Val AUC : 0.5232	Val F1 : 0.2807	Val Acc : 0.5980
+Epoch 47
+Train loss : 0.1023
+[tensor([1, 0, 0, 0, 1, 0])] tensor([1, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 2.0954	Val AUC : 0.5098	Val F1 : 0.2449	Val Acc : 0.6373
+Epoch 48
+Train loss : 0.0837
+[tensor([0, 1, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 2.2464	Val AUC : 0.4952	Val F1 : 0.2308	Val Acc : 0.6078
+Epoch 49
+Train loss : 0.0596
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 2.2012	Val AUC : 0.4677	Val F1 : 0.2295	Val Acc : 0.5392
+Epoch 50
+Train loss : 0.0475
+[tensor([0, 1, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 2.0461	Val AUC : 0.4104	Val F1 : 0.1200	Val Acc : 0.5686
+Epoch 51
+Train loss : 0.0330
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 1, 0, 1, 0, 0], device='cuda:0')
+Val loss : 2.4795	Val AUC : 0.4464	Val F1 : 0.1364	Val Acc : 0.6275
+Epoch 52
+Train loss : 0.0314
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 2.6317	Val AUC : 0.4165	Val F1 : 0.1224	Val Acc : 0.5784
+Epoch 53
+Train loss : 0.0238
+[tensor([1, 0, 0, 0, 1, 0])] tensor([0, 1, 0, 0, 0, 0], device='cuda:0')
+Val loss : 2.6211	Val AUC : 0.4280	Val F1 : 0.0952	Val Acc : 0.6275
+Epoch 54
+Train loss : 0.0115
+[tensor([0, 1, 0, 0, 0, 0])] tensor([0, 0, 1, 0, 0, 0], device='cuda:0')
+Val loss : 2.7469	Val AUC : 0.4476	Val F1 : 0.1633	Val Acc : 0.5980
+Epoch 55
+Train loss : 0.0106
+[tensor([0, 0, 0, 0, 0, 1])] tensor([1, 0, 1, 0, 0, 0], device='cuda:0')
+Val loss : 2.9717	Val AUC : 0.4667	Val F1 : 0.1739	Val Acc : 0.6275
+Epoch 56
+Train loss : 0.0306
+[tensor([1, 0, 0, 0, 0, 0])] tensor([0, 0, 1, 0, 1, 0], device='cuda:0')
+Val loss : 3.1234	Val AUC : 0.4171	Val F1 : 0.1481	Val Acc : 0.5490
+Epoch 57
+Train loss : 0.0238
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 1, 0, 1, 1], device='cuda:0')
+Val loss : 2.9880	Val AUC : 0.4104	Val F1 : 0.1200	Val Acc : 0.5686
+Epoch 58
+Train loss : 0.0194
+[tensor([0, 0, 0, 0, 1, 1])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 2.5466	Val AUC : 0.4402	Val F1 : 0.1000	Val Acc : 0.6471
+Epoch 59
+Train loss : 0.0099
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 2.8486	Val AUC : 0.4750	Val F1 : 0.2000	Val Acc : 0.6078
+Epoch 60
+Train loss : 0.0147
+[tensor([1, 0, 1, 0, 0, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 3.2676	Val AUC : 0.4382	Val F1 : 0.1000	Val Acc : 0.6471
+Epoch 61
+Train loss : 0.0155
+[tensor([0, 1, 0, 0, 0, 1])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 3.3142	Val AUC : 0.4464	Val F1 : 0.1364	Val Acc : 0.6275
+Epoch 62
+Train loss : 0.0149
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 1], device='cuda:0')
+Val loss : 3.1187	Val AUC : 0.4283	Val F1 : 0.1277	Val Acc : 0.5980
+Epoch 63
+Train loss : 0.0064
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 3.5047	Val AUC : 0.4280	Val F1 : 0.0952	Val Acc : 0.6275
+Epoch 64
+Train loss : 0.0099
+[tensor([0, 1, 0, 0, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 3.9176	Val AUC : 0.4020	Val F1 : 0.0870	Val Acc : 0.5882
+Epoch 65
+Train loss : 0.0081
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 1, 1, 0, 0, 0], device='cuda:0')
+Val loss : 3.3871	Val AUC : 0.4286	Val F1 : 0.1277	Val Acc : 0.5980
+Epoch 66
+Train loss : 0.0021
+[tensor([1, 0, 0, 0, 1, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 3.6873	Val AUC : 0.4524	Val F1 : 0.1053	Val Acc : 0.6667
+Epoch 67
+Train loss : 0.0066
+[tensor([0, 0, 0, 1, 1, 0])] tensor([0, 0, 0, 1, 0, 0], device='cuda:0')
+Val loss : 3.9392	Val AUC : 0.4645	Val F1 : 0.1463	Val Acc : 0.6569
+Epoch 68
+Train loss : 0.0053
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 0, 0, 0, 1], device='cuda:0')
+Val loss : 4.4693	Val AUC : 0.4421	Val F1 : 0.1818	Val Acc : 0.5588
+Epoch 69
+Train loss : 0.0015
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 4.3689	Val AUC : 0.4645	Val F1 : 0.1463	Val Acc : 0.6569
+Epoch 70
+Train loss : 0.0034
+[tensor([0, 0, 0, 0, 1, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 4.7342	Val AUC : 0.4530	Val F1 : 0.1395	Val Acc : 0.6373
+Epoch 71
+Train loss : 0.0016
+[tensor([1, 1, 0, 0, 0, 1])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 4.8349	Val AUC : 0.4604	Val F1 : 0.1923	Val Acc : 0.5882
+Epoch 72
+Train loss : 0.0035
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 4.2785	Val AUC : 0.4727	Val F1 : 0.1778	Val Acc : 0.6373
+Epoch 73
+Train loss : 0.0011
+[tensor([0, 0, 1, 0, 1, 0])] tensor([1, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 4.6573	Val AUC : 0.4705	Val F1 : 0.1500	Val Acc : 0.6667
+Epoch 74
+Train loss : 0.0039
+[tensor([1, 0, 0, 0, 0, 1])] tensor([0, 1, 0, 0, 1, 0], device='cuda:0')
+Val loss : 4.4993	Val AUC : 0.5091	Val F1 : 0.2273	Val Acc : 0.6667
+Epoch 75
+Train loss : 0.0021
+[tensor([1, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 0], device='cuda:0')
+Val loss : 4.5141	Val AUC : 0.5051	Val F1 : 0.2222	Val Acc : 0.6569
+Epoch 76
+Train loss : 0.0014
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 1, 1, 1, 0], device='cuda:0')
+Val loss : 4.5527	Val AUC : 0.4909	Val F1 : 0.2128	Val Acc : 0.6373
+Epoch 77
+Train loss : 0.0005
+[tensor([0, 0, 0, 1, 0, 1])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 4.5193	Val AUC : 0.4425	Val F1 : 0.1026	Val Acc : 0.6569
+Epoch 78
+Train loss : 0.0013
+[tensor([0, 0, 0, 0, 0, 0])] tensor([0, 0, 0, 1, 1, 0], device='cuda:0')
+Val loss : 4.5060	Val AUC : 0.4643	Val F1 : 0.1463	Val Acc : 0.6569
+Epoch 79
+Train loss : 0.0005
+[tensor([0, 0, 1, 1, 0, 0])] tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+Val loss : 5.0594	Val AUC : 0.4530	Val F1 : 0.1395	Val Acc : 0.6373
+Epoch 80
+Train loss : 0.0057
+[tensor([0, 0, 0, 1, 1, 0])] tensor([0, 0, 1, 0, 0, 0], device='cuda:0')
+Val loss : 5.0763	Val AUC : 0.4280	Val F1 : 0.0952	Val Acc : 0.6275
+Epoch 81
+Train loss : 0.0025
+[tensor([0, 0, 0, 0, 1, 0])] tensor([1, 1, 1, 1, 0, 0], device='cuda:0')
+Val loss : 5.2029	Val AUC : 0.4348	Val F1 : 0.1304	Val Acc : 0.6078
+Epoch 82
+Train loss : 0.0039
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 1, 0, 0, 1, 0], device='cuda:0')
+Val loss : 5.3561	Val AUC : 0.4543	Val F1 : 0.1887	Val Acc : 0.5784
+Epoch 83
+Train loss : 0.0047
+[tensor([1, 0, 1, 1, 0, 0])] tensor([0, 0, 0, 0, 1, 1], device='cuda:0')
+Val loss : 4.6227	Val AUC : 0.4484	Val F1 : 0.1053	Val Acc : 0.6667
+Epoch 84
+Train loss : 0.0014
+[tensor([0, 0, 0, 1, 0, 0])] tensor([0, 0, 1, 1, 0, 0], device='cuda:0')
+Val loss : 4.8881	Val AUC : 0.4524	Val F1 : 0.1395	Val Acc : 0.6373
+Epoch 85
+Train loss : 0.0173
+[tensor([0, 0, 0, 0, 0, 0])] tensor([1, 0, 0, 0, 1, 1], device='cuda:0')
+Val loss : 5.6111	Val AUC : 0.4646	Val F1 : 0.1111	Val Acc : 0.6863
+best auc score is 0.5604 (f1:0.3551 acc:0.8039)
+Traceback (most recent call last):
+  File "main.py", line 79, in <module>
+    del loss, model, optimizer
+NameError: name 'loss' is not defined
+Traceback (most recent call last):
+  File "main.py", line 79, in <module>
+    del loss, model, optimizer
+NameError: name 'loss' is not defined

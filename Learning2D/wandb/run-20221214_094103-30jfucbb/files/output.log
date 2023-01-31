@@ -1,0 +1,15 @@
+
+Epoch: 1
+Loss nan
+tensor([0, 0, 0, 0, 0, 0], device='cuda:0')
+ tensor([0., 0., 0., 1., 0., 0.], device='cuda:0')
+acc : 0.81373, auc: 0.50000, f1: 0.00000
+metric_best (0.000000 --> 0.500000). Saving model ...
+Traceback (most recent call last):
+  File "main.py", line 102, in <module>
+    torch.save(model.state_dict(), model_file)
+NameError: name 'model_file' is not defined
+Traceback (most recent call last):
+  File "main.py", line 102, in <module>
+    torch.save(model.state_dict(), model_file)
+NameError: name 'model_file' is not defined

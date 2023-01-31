@@ -1,0 +1,26 @@
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_setup.py:_flush():76] Configure stats pid to 2789774
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_setup.py:_flush():76] Loading settings from /homes/n20darja/.config/wandb/settings
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_setup.py:_flush():76] Loading settings from /homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/wandb/settings
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'ContrastiveLearning/main.py', 'program': 'main.py'}
+2022-11-29 13:03:51,320 INFO    MainThread:2789774 [wandb_init.py:_log_setup():461] Logging user logs to /homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/wandb/run-20221129_130351-3i37lf8d/logs/debug.log
+2022-11-29 13:03:51,321 INFO    MainThread:2789774 [wandb_init.py:_log_setup():462] Logging internal logs to /homes/n20darja/StageCesureCoeur/predict_tavi/ContrastiveLearning/wandb/run-20221129_130351-3i37lf8d/logs/debug-internal.log
+2022-11-29 13:03:51,321 INFO    MainThread:2789774 [wandb_init.py:init():495] calling init triggers
+2022-11-29 13:03:51,321 INFO    MainThread:2789774 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'model': 'resnet10', 'normalization': 'global', 'patience': 15, 'n_epoch_proj': 110, 'n_epoch_class': 130, 'use_wandb': True, 'type_scan': 'diastole', 'crop': 'cube_irl', 'oversample': True, 'augment': False, 'augment_prob': (), 'size': 200, 'bs': 10, 'name_target': 'pm_post_tavi', 'model_size': 6}
+2022-11-29 13:03:51,321 INFO    MainThread:2789774 [wandb_init.py:init():548] starting backend
+2022-11-29 13:03:51,321 INFO    MainThread:2789774 [wandb_init.py:init():552] setting up manager
+2022-11-29 13:03:51,343 INFO    MainThread:2789774 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2022-11-29 13:03:51,367 INFO    MainThread:2789774 [wandb_init.py:init():558] backend started and connected
+2022-11-29 13:03:51,390 INFO    MainThread:2789774 [wandb_init.py:init():636] updated telemetry
+2022-11-29 13:03:51,468 INFO    MainThread:2789774 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-11-29 13:03:51,935 INFO    MainThread:2789774 [wandb_run.py:_on_init():1982] communicating current version
+2022-11-29 13:03:52,068 INFO    MainThread:2789774 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-29 13:03:52,068 INFO    MainThread:2789774 [wandb_init.py:init():700] starting run threads in backend
+2022-11-29 13:03:52,434 INFO    MainThread:2789774 [wandb_run.py:_console_start():1962] atexit reg
+2022-11-29 13:03:52,435 INFO    MainThread:2789774 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-11-29 13:03:52,435 INFO    MainThread:2789774 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-11-29 13:03:52,436 INFO    MainThread:2789774 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-11-29 13:03:52,437 INFO    MainThread:2789774 [wandb_init.py:init():732] run started, returning control to user process
+2022-11-29 13:04:06,857 WARNING MsgRouterThr:2789774 [router.py:message_loop():76] message_loop has been closed

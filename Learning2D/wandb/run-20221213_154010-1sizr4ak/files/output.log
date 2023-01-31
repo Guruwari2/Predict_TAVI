@@ -1,0 +1,24 @@
+
+Epoch: 1
+torch.Size([588, 512])
+torch.Size([588, 2])
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 31, in train_func
+    logits = model(images.half())
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 45, in forward
+    feat = feat.view(bs, 98).contiguous()
+RuntimeError: shape '[6, 98]' is invalid for input of size 1176
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    train_loss = train_func(model, loader_train, optimizer, scaler)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/train.py", line 31, in train_func
+    logits = model(images.half())
+  File "/opt/campux/virtualenv/deeplearning-u20-rtx-3080-pytorch-1.11/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/homes/n20darja/StageCesureCoeur/predict_tavi/Learning2D/models.py", line 45, in forward
+    feat = feat.view(bs, 98).contiguous()
+RuntimeError: shape '[6, 98]' is invalid for input of size 1176
